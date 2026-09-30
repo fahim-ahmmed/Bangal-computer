@@ -1,0 +1,20 @@
+{
+  "name": "bangal-computer",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Bangal Computer — StarTech.com.bd-style e-commerce platform (Next.js + Express + MongoDB)",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace=apps/web",
+    "dev:api": "npm run dev --workspace=apps/api",
+    "seed:categories": "npm run seed:categories --workspace=apps/api",
+    "make-admin": "npm run make-admin --workspace=apps/api --",
+    "install:all": "npm install"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
