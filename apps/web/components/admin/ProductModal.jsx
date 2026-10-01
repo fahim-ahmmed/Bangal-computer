@@ -46,7 +46,7 @@ function Section({ title, children }) {
  * (`{modal && <ProductModal ... />}`) so every open starts with fresh state.
  *
  * Create flow: product is saved as a DRAFT first, then images upload, and only then
- * is it switched to the chosen status — so a failed image upload never leaves a
+ * is it published — so a failed image upload never leaves a
  * half-finished product visible on the storefront. If a step fails the product is
  * already saved; pressing "সেভ" again just continues from where it stopped.
  */
@@ -466,13 +466,15 @@ export default function ProductModal({ productId = null, onClose, onSaved }) {
 
             <Section title="প্রকাশ">
               <div className="flex flex-wrap items-center gap-6">
-                <Field label="স্ট্যাটাস">
-                  <select className={UI.input} value={form.status} onChange={set("status")}>
-                    <option value="published">পাবলিশড (সাইটে দেখাবে)</option>
-                    <option value="draft">ড্রাফট (সাইটে দেখাবে না)</option>
-                  </select>
-                </Field>
-                <label className="mt-5 flex items-center gap-2 text-sm text-neutral-700">
+                {form.status === "published" ? (
+                  <p className="text-sm text-neutral-600">
+                    <span className="mr-2 rounded-full bg-green-100 px-2.5 py-1 text-xs font-semibold text-green-700">প্রকাশিত</span>
+                    সাইটে থাকবে; সরাতে প্রোডাক্টটি মুছে ফেলুন।
+                  </p>
+                ) : (
+                  <p className="text-sm text-amber-700">ড্রাফট — সেভ করার পর পাবলিশ করতে প্রোডাক্ট তালিকা থেকে পাবলিশ চাপুন।</p>
+                )}
+                <label className="flex items-center gap-2 text-sm text-neutral-700">
                   <input type="checkbox" checked={form.isFeatured} onChange={set("isFeatured")} />
                   ফিচার্ড প্রোডাক্ট
                 </label>

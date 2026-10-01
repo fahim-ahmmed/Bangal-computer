@@ -22,12 +22,16 @@ export default function SortBar({ basePath, total }) {
   }
 
   return (
-    <div className="flex items-center justify-between mb-4">
-      <span className="text-sm text-neutral-500">{total ?? 0}টি প্রোডাক্ট পাওয়া গেছে</span>
+    <div className="mb-4 flex flex-col gap-3 rounded-2xl border border-neutral-200 bg-white px-4 py-3 shadow-sm sm:flex-row sm:items-center sm:justify-between">
+      <div>
+        <p className="text-sm font-bold text-neutral-900">প্রোডাক্ট তালিকা</p>
+        <span className="mt-0.5 block text-xs text-neutral-500">{total ?? 0}টি প্রোডাক্ট পাওয়া গেছে</span>
+      </div>
       <select
         value={current}
         onChange={onChange}
-        className="rounded-md border border-neutral-300 px-3 py-1.5 text-sm"
+        aria-label="প্রোডাক্ট সাজান"
+        className="w-full rounded-lg border border-neutral-200 bg-neutral-50 px-3 py-2.5 text-sm text-neutral-700 outline-none transition focus:border-brand focus:ring-2 focus:ring-brand/10 sm:w-auto"
       >
         {SORT_OPTIONS.map((opt) => (
           <option key={opt.value} value={opt.value}>

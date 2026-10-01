@@ -41,7 +41,7 @@ export default function SearchBar() {
 
   return (
     <div className="relative w-full">
-      <form onSubmit={goToSearch}>
+      <form onSubmit={goToSearch} className="flex items-center overflow-hidden rounded-xl border border-neutral-200 bg-neutral-50 transition focus-within:border-brand focus-within:bg-white focus-within:ring-4 focus-within:ring-brand/10">
         <Input
           value={q}
           onValueChange={(v) => {
@@ -51,9 +51,24 @@ export default function SearchBar() {
           onFocus={() => setOpen(true)}
           onBlur={() => setTimeout(() => setOpen(false), 150)}
           placeholder="প্রোডাক্ট খুঁজুন..."
-          radius="sm"
-          classNames={{ inputWrapper: "bg-neutral-100" }}
+          radius="none"
+          classNames={{
+            base: "flex-1",
+            inputWrapper: "h-12 rounded-none border-0 bg-transparent px-4 shadow-none data-[hover=true]:bg-transparent group-data-[focus=true]:bg-transparent",
+            input: "text-sm placeholder:text-neutral-400",
+          }}
         />
+        <button
+          type="submit"
+          aria-label="খুঁজুন"
+          className="mr-1.5 inline-flex h-9 shrink-0 items-center gap-2 rounded-lg bg-brand px-4 text-sm font-bold text-white transition-colors hover:bg-brand-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+        >
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" className="h-4 w-4" stroke="currentColor" strokeWidth="2">
+            <circle cx="10.8" cy="10.8" r="6.8" />
+            <path strokeLinecap="round" d="m16 16 4.5 4.5" />
+          </svg>
+          <span className="hidden sm:inline">খুঁজুন</span>
+        </button>
       </form>
 
       {open && suggestions.length > 0 && (

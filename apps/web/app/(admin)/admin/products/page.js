@@ -49,8 +49,8 @@ export default function AdminProductsPage() {
     }
   }
 
-  const togglePublish = (p) =>
-    act(() => adminFetch(`/products/${p._id}/status`, { method: "PATCH", body: { status: p.status === "published" ? "draft" : "published" } }));
+  const publish = (p) =>
+    act(() => adminFetch(`/products/${p._id}/status`, { method: "PATCH", body: { status: "published" } }));
 
   const remove = (p) => {
     if (!window.confirm(`"${p.title}" মুছে ফেলবেন?\n(ডাটা মুছবে না — সাইট থেকে লুকানো থাকবে, "মুছে ফেলা" ফিল্টার থেকে ফেরত আনা যাবে)`)) return;
@@ -76,8 +76,12 @@ export default function AdminProductsPage() {
 
   return (
     <div>
-      <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
-        <h1 className="text-xl font-bold text-neutral-900">প্রোডাক্ট</h1>
+      <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
+        <div>
+          <p className="text-xs font-bold uppercase tracking-[0.16em] text-brand">ক্যাটালগ পরিচালনা</p>
+          <h1 className="mt-1 text-2xl font-extrabold text-neutral-950">প্রোডাক্ট</h1>
+          <p className="mt-1 text-sm text-neutral-500">প্রকাশিত পণ্য স্টকে না থাকলেও সাইটে থাকবে—মুছলে তবেই লুকানো হবে।</p>
+        </div>
         <div className="flex gap-2">
           <label className={`${UI.btnGhost} cursor-pointer`}>
             বাল্ক ইমপোর্ট (CSV/Excel)
@@ -190,9 +194,7 @@ export default function AdminProductsPage() {
                     ) : (
                       <div className="flex justify-end gap-3 text-xs">
                         <button onClick={() => setModal({ id: p._id })} className="text-brand hover:underline">এডিট</button>
-                        <button onClick={() => togglePublish(p)} className="text-neutral-600 hover:underline">
-                          {p.status === "published" ? "আনপাবলিশ" : "পাবলিশ"}
-                        </button>
+                        {p.status !== "published" && <button onClick={() => publish(p)} className="text-green-700 hover:underline">পাবলিশ</button>}
                         <button onClick={() => remove(p)} className="text-red-500 hover:underline">মুছুন</button>
                       </div>
                     )}

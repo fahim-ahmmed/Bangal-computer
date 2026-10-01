@@ -44,7 +44,7 @@ const productSchema = new Schema(
 
     // Draft/Publish toggle (admin checklist item) — separate from isActive,
     // which is the soft-delete flag.
-    status: { type: String, enum: ["draft", "published"], default: "draft", index: true },
+    status: { type: String, enum: ["draft", "published"], default: "published", index: true },
     isActive: { type: Boolean, default: true },
   },
   { timestamps: true }

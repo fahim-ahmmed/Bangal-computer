@@ -1,7 +1,7 @@
 import "@gravity-ui/uikit/styles/styles.css";
 import { AdminProviders } from "./providers";
-import AdminSidebar from "@/components/admin/AdminSidebar";
 import AdminGuard from "@/components/admin/AdminGuard";
+import AdminLayoutFrame from "@/components/admin/AdminLayoutFrame";
 
 export const metadata = {
   title: "Bangal Computer — Admin",
@@ -16,10 +16,7 @@ export default function AdminLayout({ children }) {
   return (
     <AdminProviders>
       <AdminGuard>
-        <div className="flex min-h-screen">
-          <AdminSidebar />
-          <main className="min-w-0 flex-1 bg-neutral-50 p-6">{children}</main>
-        </div>
+        <AdminLayoutFrame>{children}</AdminLayoutFrame>
       </AdminGuard>
     </AdminProviders>
   );

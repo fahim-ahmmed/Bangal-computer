@@ -23,17 +23,29 @@ export default async function CategoryPage({ params, searchParams }) {
   const { main, subcategories } = result.data;
 
   const extraTop = subcategories?.length > 0 && (
-    <div className="mb-8 flex flex-wrap gap-2">
-      {subcategories.map((sub) => (
-        <Link
-          key={sub._id}
-          href={`/${main.slug}/${sub.slug}`}
-          className="rounded-full border border-neutral-300 px-4 py-1.5 text-sm text-neutral-700 hover:border-brand hover:text-brand"
-        >
-          {sub.name}
-        </Link>
-      ))}
-    </div>
+    <section aria-label={`${main.name} সাবক্যাটাগরি`} className="mb-6 rounded-2xl border border-neutral-200 bg-white p-4 shadow-sm sm:mb-8 sm:p-5">
+      <div className="mb-3 flex items-center justify-between gap-3">
+        <div>
+          <h2 className="text-sm font-bold text-neutral-900 sm:text-base">বিভাগ ব্রাউজ করুন</h2>
+          <p className="mt-1 text-xs text-neutral-500">আপনার প্রয়োজনের সাবক্যাটাগরি বেছে নিন</p>
+        </div>
+        <span className="rounded-full bg-neutral-100 px-2.5 py-1 text-xs font-semibold text-neutral-500">
+          {subcategories.length}টি বিভাগ
+        </span>
+      </div>
+      <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+        {subcategories.map((sub) => (
+          <Link
+            key={sub._id}
+            href={`/${main.slug}/${sub.slug}`}
+            className="group flex min-h-11 items-center justify-between gap-2 rounded-xl border border-neutral-200 bg-neutral-50/70 px-3 py-2.5 text-xs font-semibold text-neutral-700 transition-colors hover:border-red-200 hover:bg-red-50 hover:text-brand sm:text-sm"
+          >
+            <span className="line-clamp-2">{sub.name}</span>
+            <span aria-hidden="true" className="shrink-0 text-neutral-300 transition-transform group-hover:translate-x-0.5 group-hover:text-brand">→</span>
+          </Link>
+        ))}
+      </div>
+    </section>
   );
 
   return (

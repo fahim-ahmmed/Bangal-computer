@@ -298,7 +298,16 @@ router.put("/:id", requireRole("admin", "staff"), async (req, res, next) => {
     const update = { ...req.body };
     delete update.images; // images managed via dedicated endpoints below
     delete update.slug; // keep product URLs stable after publishing
+    delete update.isActive; // visibility is changed only through delete/restore
     if (update.specs !== undefined) update.specs = sanitizeSpecs(update.specs);
+
+    if (update.status === "draft") {
+      const existing = await Product.findById(req.params.id).select("status").lean();
+      if (!existing) return res.status(404).json({ success: false, message: "প্রোডাক্ট পাওয়া যায়নি" });
+      if (existing.status === "published") {
+        return res.status(409).json({ success: false, message: "প্রকাশিত প্রোডাক্ট সাইট থেকে সরাতে প্রোডাক্টটি মুছে ফেলুন" });
+      }
+    }
 
     const product = await Product.findByIdAndUpdate(req.params.id, update, {
       new: true,
@@ -319,8 +328,13 @@ router.patch("/:id/status", requireRole("admin", "staff"), async (req, res, next
     if (!["draft", "published"].includes(status)) {
       return res.status(400).json({ success: false, message: "status হবে draft বা published" });
     }
-    const product = await Product.findByIdAndUpdate(req.params.id, { status }, { new: true });
+    const product = await Product.findById(req.params.id);
     if (!product) return res.status(404).json({ success: false, message: "প্রোডাক্ট পাওয়া যায়নি" });
+    if (product.status === "published" && status === "draft") {
+      return res.status(409).json({ success: false, message: "প্রকাশিত প্রোডাক্ট সাইট থেকে সরাতে প্রোডাক্টটি মুছে ফেলুন" });
+    }
+    product.status = status;
+    await product.save();
     res.json({ success: true, data: product });
   } catch (err) {
     next(err);
@@ -421,7 +435,7 @@ router.delete("/:id/images", requireRole("admin", "staff"), async (req, res, nex
  * Expected columns (header row, case-insensitive):
  *   title, category, subcategory, brand, price, discountPrice, stock,
  *   sku, description, specs (JSON string, e.g. {"RAM":"16GB"}),
- *   isFeatured (true/false), status (draft/published)
+ *    isFeatured (true/false), status (draft/published; default published)
  *
  * category/subcategory/brand are matched by NAME against the already-
  * seeded Category/Brand collections — rows that don't match an existing
@@ -494,7 +508,9 @@ router.post(
             description: String(row.description || ""),
             specs,
             isFeatured: String(row.isFeatured).toLowerCase() === "true",
-            status: ["draft", "published"].includes(row.status) ? row.status : "draft",
+            status: ["draft", "published"].includes(String(row.status).toLowerCase())
+              ? String(row.status).toLowerCase()
+              : "published",
           });
 
           results.created += 1;
