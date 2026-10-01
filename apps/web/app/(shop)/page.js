@@ -89,42 +89,42 @@ export default async function HomePage() {
       <div className="mx-auto max-w-7xl px-4 pt-5 sm:pt-8">
         <section className="relative isolate overflow-hidden rounded-2xl bg-neutral-950 shadow-xl shadow-neutral-900/10 sm:rounded-3xl">
           <div className="pointer-events-none absolute -right-24 -top-40 -z-10 h-96 w-96 rounded-full bg-brand/30 blur-3xl" />
-          <div className="grid lg:min-h-[440px] lg:grid-cols-[0.9fr_1.1fr]">
-            <div className="flex flex-col justify-center px-6 py-9 sm:px-10 sm:py-12 lg:px-14 lg:py-14">
-              <span className="mb-5 inline-flex w-fit items-center gap-2 rounded-full border border-white/15 bg-white/10 px-3 py-1.5 text-xs font-semibold text-white/90">
+          <div className="relative grid min-h-[440px] lg:min-h-[460px] lg:grid-cols-[0.9fr_1.1fr]">
+            <div className="relative z-10 flex flex-col justify-center px-5 py-8 sm:px-10 sm:py-12 lg:px-14 lg:py-14">
+              <span className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-xs font-semibold text-white/90 backdrop-blur-sm sm:mb-5">
                 <span className="h-1.5 w-1.5 rounded-full bg-red-400" />
                 প্রযুক্তির পছন্দ, এখন এক জায়গায়
               </span>
-              <h1 className="max-w-xl text-3xl font-extrabold !leading-[1.4] tracking-tight text-white sm:text-4xl lg:text-[3rem] xl:text-[3.25rem]">
+              <h1 className="max-w-xl text-[2rem] font-extrabold !leading-[1.2] tracking-tight text-white sm:text-4xl lg:text-[3rem] xl:text-[3.25rem]">
                 <span className="block">আপনার পরের</span>
                 <span className="block text-red-400">টেক আপগ্রেড</span>
                 <span className="block">শুরু হোক এখানেই</span>
               </h1>
-              <p className="mt-4 max-w-lg text-sm leading-7 text-neutral-300 sm:text-base sm:leading-8">
+              <p className="mt-3 max-w-lg text-sm leading-6 text-neutral-200 sm:mt-4 sm:text-base sm:leading-8">
                 ল্যাপটপ, কম্পিউটার, কম্পোনেন্ট ও প্রয়োজনীয় টেক অ্যাক্সেসরিজ—খুঁজে নিন আপনার কাজ ও বাজেটের জন্য।
               </p>
-              <div className="mt-7 flex flex-wrap gap-3">
+              <div className="mt-5 flex flex-wrap gap-3 sm:mt-7">
                 <Link
                   href="/search"
-                  className="inline-flex items-center gap-2 rounded-lg bg-brand px-5 py-3 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:bg-brand-dark hover:shadow-lg hover:shadow-brand/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                  className="inline-flex min-h-11 items-center gap-2 rounded-lg bg-brand px-5 py-3 text-sm font-bold text-white shadow-lg shadow-black/15 transition hover:-translate-y-0.5 hover:bg-brand-dark hover:shadow-brand/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                   প্রোডাক্ট খুঁজুন <span aria-hidden="true">→</span>
                 </Link>
                 <Link
                   href="/pc-builder"
-                  className="inline-flex items-center gap-2 rounded-lg border border-white/20 bg-white/5 px-5 py-3 text-sm font-bold text-white transition hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                  className="inline-flex min-h-11 items-center gap-2 rounded-lg border border-white/25 bg-neutral-950/35 px-5 py-3 text-sm font-bold text-white backdrop-blur-sm transition hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                   <span aria-hidden="true">🖥️</span> PC Builder
                 </Link>
               </div>
-              <div className="mt-8 flex flex-wrap gap-x-5 gap-y-2 text-xs font-medium text-neutral-300">
+              <div className="mt-6 hidden flex-wrap gap-x-5 gap-y-2 text-xs font-medium text-neutral-200 sm:flex lg:mt-8">
                 <span>✓ পছন্দমতো ক্যাটাগরি</span>
                 <span>✓ সহজ প্রোডাক্ট তুলনা</span>
                 <span>✓ অনলাইন ও স্টোর—দুই অভিজ্ঞতা</span>
               </div>
             </div>
 
-            <div className="relative min-h-[280px] overflow-hidden sm:min-h-[360px] lg:min-h-full">
+            <div className="absolute inset-0 -z-10 overflow-hidden lg:relative lg:inset-auto lg:z-0 lg:min-h-full">
               {banners.length > 0 ? (
                 <BannerSlider banners={banners} />
               ) : heroProduct?.images?.[0] ? (
@@ -155,6 +155,7 @@ export default async function HomePage() {
               ) : (
                 <TechnologyImageSlider />
               )}
+              <div className="absolute inset-0 bg-gradient-to-r from-neutral-950 via-neutral-950/80 to-neutral-950/35 lg:hidden" />
             </div>
           </div>
         </section>
