@@ -1,17 +1,12 @@
 import { apiFetch } from "./api";
 import { getApiBaseUrl } from "./deployment-config";
 
-/**
- * Full category tree for the mega menu. Revalidated every 5 minutes
- * (ISR-style) — category structure changes rarely, so this avoids
- * hitting the API on every request while still picking up admin edits
- * reasonably fast.
- */
+/** Fetch the current category tree so a fresh seed or admin change appears immediately. */
 export async function getCategoryTree() {
   try {
     const res = await fetch(
       `${getApiBaseUrl()}/categories`,
-      { next: { revalidate: 300, tags: ["categories"] } }
+      { cache: "no-store" }
     );
     if (!res.ok) return [];
     const json = await res.json();
