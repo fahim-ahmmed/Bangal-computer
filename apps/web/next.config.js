@@ -7,6 +7,18 @@ const nextConfig = {
       { protocol: "https", hostname: "**.s3.amazonaws.com" },
     ],
   },
+  async rewrites() {
+    const apiProxyOrigin = process.env.API_PROXY_ORIGIN;
+
+    if (!apiProxyOrigin) return [];
+
+    return [
+      {
+        source: "/backend/:path*",
+        destination: `${apiProxyOrigin}/:path*`,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;

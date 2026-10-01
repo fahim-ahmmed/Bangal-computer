@@ -149,7 +149,7 @@ export default function AdminProductsPage() {
               <tr><td colSpan={6} className="p-8 text-center text-neutral-400">লোড হচ্ছে...</td></tr>
             )}
             {!loading && items.length === 0 && (
-              <tr><td colSpan={6} className="p-8 text-center text-neutral-400">কোনো প্রোডাক্ট নেই — "+ নতুন প্রোডাক্ট" চাপুন।</td></tr>
+              <tr><td colSpan={6} className="p-8 text-center text-neutral-400">কোনো প্রোডাক্ট নেই — &quot;+ নতুন প্রোডাক্ট&quot; চাপুন।</td></tr>
             )}
             {!loading &&
               items.map((p) => (
