@@ -1,4 +1,6 @@
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+import { getApiBaseUrl } from "./deployment-config";
+
+const API_URL = getApiBaseUrl();
 
 export const UI = {
   input:

@@ -3,8 +3,9 @@
 import { useEffect, useState } from "react";
 import { UI } from "@/lib/admin-api";
 import { builderApi, settingsApi } from "@/lib/tools-client";
+import { getApiBaseUrl } from "@/lib/deployment-config";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+const API_URL = getApiBaseUrl();
 
 export default function AdminToolsPage() {
   const [slots, setSlots] = useState(null);

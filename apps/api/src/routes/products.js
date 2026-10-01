@@ -4,7 +4,13 @@ import Category from "../models/Category.js";
 import Brand from "../models/Brand.js";
 import { requireRole } from "../lib/auth.js";
 import { uploadImages, uploadImportFile } from "../middleware/upload.js";
-import { uploadBuffer, destroyByUrl } from "../lib/cloudinary.js";
+import {
+  cloudinaryConfigured,
+  createProductImageSignature,
+  isProductImageUrlForProduct,
+  uploadBuffer,
+  destroyByUrl,
+} from "../lib/cloudinary.js";
 import XLSX from "xlsx";
 
 const router = Router();
@@ -355,6 +361,48 @@ router.delete("/:id", requireRole("admin", "staff"), async (req, res, next) => {
 /* ------------------------------------------------------------------ */
 /* Admin: image upload / reorder / delete                             */
 /* ------------------------------------------------------------------ */
+
+// POST /api/products/:id/images/signature — sign a direct Cloudinary upload
+router.post("/:id/images/signature", requireRole("admin", "staff"), async (req, res, next) => {
+  try {
+    const product = await Product.findById(req.params.id);
+    if (!product) return res.status(404).json({ success: false, message: "প্রোডাক্ট পাওয়া যায়নি" });
+
+    if (!cloudinaryConfigured) {
+      if (process.env.NODE_ENV === "production") {
+        return res.status(503).json({ success: false, message: "প্রোডাক্ট ইমেজ আপলোডের জন্য Cloudinary সেটআপ করুন" });
+      }
+      return res.json({ success: true, data: { configured: false } });
+    }
+
+    res.json({ success: true, data: createProductImageSignature(product.id) });
+  } catch (err) {
+    next(err);
+  }
+});
+
+// POST /api/products/:id/images/attach — attach signed Cloudinary image URLs
+router.post("/:id/images/attach", requireRole("admin", "staff"), async (req, res, next) => {
+  try {
+    const { images } = req.body;
+    if (!Array.isArray(images) || images.length === 0 || images.length > 10) {
+      return res.status(400).json({ success: false, message: "১ থেকে ১০টি ইমেজ URL আবশ্যক" });
+    }
+
+    const product = await Product.findById(req.params.id);
+    if (!product) return res.status(404).json({ success: false, message: "প্রোডাক্ট পাওয়া যায়নি" });
+
+    if (!images.every((url) => isProductImageUrlForProduct(url, product.id))) {
+      return res.status(400).json({ success: false, message: "ইমেজগুলো এই প্রোডাক্টের Cloudinary folder-এর হতে হবে" });
+    }
+
+    product.images.push(...images);
+    await product.save();
+    res.status(201).json({ success: true, data: product });
+  } catch (err) {
+    next(err);
+  }
+});
 
 // POST /api/products/:id/images — multipart form field name: "images" (up to 10)
 router.post(

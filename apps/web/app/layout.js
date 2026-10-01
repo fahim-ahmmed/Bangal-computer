@@ -1,8 +1,9 @@
 import "./globals.css";
 import { Providers } from "./providers";
+import { getSiteOrigin } from "@/lib/deployment-config";
 
 export const metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
+  metadataBase: new URL(getSiteOrigin()),
   icons: {
     icon: [{ url: "/images/logo.jpg", type: "image/jpeg" }],
     shortcut: "/images/logo.jpg",

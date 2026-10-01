@@ -2,6 +2,7 @@ import { v2 as cloudinary } from "cloudinary";
 import fs from "fs";
 import path from "path";
 import crypto from "crypto";
+import { getApiPublicUrl } from "./runtime-urls.js";
 
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
@@ -9,26 +10,74 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
-const cloudinaryConfigured = Boolean(
+export const cloudinaryConfigured = Boolean(
   process.env.CLOUDINARY_CLOUD_NAME && process.env.CLOUDINARY_API_KEY && process.env.CLOUDINARY_API_SECRET
 );
 
+export function createProductImageSignature(productId) {
+  if (!cloudinaryConfigured) {
+    throw new Error("Cloudinary is not configured");
+  }
+
+  const timestamp = Math.floor(Date.now() / 1000);
+  const publicId = `bangal-computer/products/${productId}/${timestamp}-${crypto.randomBytes(6).toString("hex")}`;
+  const signature = cloudinary.utils.api_sign_request(
+    { public_id: publicId, timestamp },
+    process.env.CLOUDINARY_API_SECRET
+  );
+
+  return {
+    configured: true,
+    cloudName: process.env.CLOUDINARY_CLOUD_NAME,
+    apiKey: process.env.CLOUDINARY_API_KEY,
+    timestamp,
+    publicId,
+    signature,
+  };
+}
+
+export function isProductImageUrlForProduct(secureUrl, productId) {
+  if (!cloudinaryConfigured || typeof secureUrl !== "string") return false;
+
+  try {
+    const url = new URL(secureUrl);
+    if (url.protocol !== "https:" || url.hostname !== "res.cloudinary.com") return false;
+
+    const parts = url.pathname.split("/").filter(Boolean).map(decodeURIComponent);
+    if (parts[0] !== process.env.CLOUDINARY_CLOUD_NAME || parts[1] !== "image" || parts[2] !== "upload") {
+      return false;
+    }
+
+    const pathParts = parts.slice(3);
+    if (/^v\d+$/.test(pathParts[0] || "")) pathParts.shift();
+    const fileName = pathParts.at(-1);
+    if (!fileName) return false;
+    pathParts[pathParts.length - 1] = fileName.replace(/\.[a-zA-Z0-9]+$/, "");
+
+    return pathParts.join("/").startsWith(`bangal-computer/products/${productId}/`);
+  } catch {
+    return false;
+  }
+}
+
 /**
  * Where images go when Cloudinary keys are NOT set (local development):
- * apps/api/uploads, served by Express at /uploads. Files stay on disk
- * permanently, so uploaded product images survive restarts. For
- * production, set the Cloudinary keys (or mount a persistent disk).
+ * apps/api/uploads, served by Express at /uploads. This is only suitable
+ * for local development because serverless filesystems are ephemeral.
  */
 export const UPLOAD_DIR = path.join(process.cwd(), "uploads");
 const EXT = { "image/jpeg": "jpg", "image/png": "png", "image/webp": "webp", "image/gif": "gif" };
 
 function publicBase() {
-  return process.env.API_PUBLIC_URL || `http://localhost:${process.env.PORT || 5000}`;
+  return getApiPublicUrl();
 }
 
 /** Uploads one in-memory image (from multer). Returns { secure_url }. */
 export async function uploadBuffer(buffer, { folder = "bangal-computer/products", mimetype = "image/jpeg" } = {}) {
   if (!cloudinaryConfigured) {
+    if (process.env.NODE_ENV === "production") {
+      throw new Error("Cloudinary must be configured for persistent image uploads in production");
+    }
     fs.mkdirSync(UPLOAD_DIR, { recursive: true });
     const name = `${Date.now()}-${crypto.randomBytes(6).toString("hex")}.${EXT[mimetype] || "jpg"}`;
     fs.writeFileSync(path.join(UPLOAD_DIR, name), buffer);

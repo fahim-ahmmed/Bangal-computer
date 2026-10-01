@@ -1,4 +1,5 @@
 import { apiFetch } from "./api";
+import { getApiBaseUrl } from "./deployment-config";
 
 /**
  * Full category tree for the mega menu. Revalidated every 5 minutes
@@ -9,7 +10,7 @@ import { apiFetch } from "./api";
 export async function getCategoryTree() {
   try {
     const res = await fetch(
-      `${process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api"}/categories`,
+      `${getApiBaseUrl()}/categories`,
       { next: { revalidate: 300, tags: ["categories"] } }
     );
     if (!res.ok) return [];

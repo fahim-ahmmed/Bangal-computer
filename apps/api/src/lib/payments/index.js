@@ -1,13 +1,12 @@
 import * as bkash from "./bkash.js";
 import * as nagad from "./nagad.js";
 import * as card from "./card.js";
+import { getApiPublicUrl } from "../runtime-urls.js";
 
 const gateways = { bkash, nagad, card };
 
-const API_PUBLIC_URL = process.env.API_PUBLIC_URL || `http://localhost:${process.env.PORT || 5000}`;
-
 export function callbackUrlFor(method) {
-  return `${API_PUBLIC_URL}/api/payments/callback/${method}`;
+  return `${getApiPublicUrl()}/api/payments/callback/${method}`;
 }
 
 /**

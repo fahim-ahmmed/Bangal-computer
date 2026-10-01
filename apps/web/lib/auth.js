@@ -6,6 +6,9 @@ import { MongoClient } from "mongodb";
 const mongoUri = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/bangal-computer";
 const client = new MongoClient(mongoUri);
 const db = client.db();
+const siteOrigin =
+  process.env.BETTER_AUTH_URL ||
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
 
 /**
  * Central Better Auth instance. Runs on the Next.js side (apps/web)
@@ -17,7 +20,7 @@ export const auth = betterAuth({
   database: mongodbAdapter(db),
 
   secret: process.env.BETTER_AUTH_SECRET,
-  baseURL: process.env.BETTER_AUTH_URL || "http://localhost:3000",
+  baseURL: siteOrigin,
 
   emailAndPassword: {
     enabled: true,

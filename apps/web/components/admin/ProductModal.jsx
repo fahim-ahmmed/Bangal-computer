@@ -2,8 +2,9 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { adminFetch, UI } from "@/lib/admin-api";
+import { getApiBaseUrl } from "@/lib/deployment-config";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+const API_URL = getApiBaseUrl();
 const MAX_IMAGE_MB = 8;
 
 const EMPTY = {
@@ -270,11 +271,59 @@ export default function ProductModal({ productId = null, onClose, onSaved }) {
         originalImages.current = existingImages;
       }
 
-      // upload new images (API takes up to 10 per request)
+      // Upload images directly to Cloudinary on Vercel to avoid function body-size limits.
       for (let i = 0; i < newFiles.length; i += 10) {
-        const fd = new FormData();
-        newFiles.slice(i, i + 10).forEach((f) => fd.append("images", f.file));
-        const { data } = await adminFetch(`/products/${id}/images`, { method: "POST", body: fd });
+        const batch = newFiles.slice(i, i + 10);
+        const { data: signature } = await adminFetch(`/products/${id}/images/signature`, {
+          method: "POST",
+          body: {},
+        });
+
+        if (!signature.configured) {
+          const fd = new FormData();
+          batch.forEach((file) => fd.append("images", file.file));
+          const { data } = await adminFetch(`/products/${id}/images`, { method: "POST", body: fd });
+          setExistingImages(data.images);
+          originalImages.current = data.images;
+          continue;
+        }
+
+        const uploadedUrls = [];
+        let nextSignature = signature;
+        for (const { file } of batch) {
+          const uploadSignature =
+            nextSignature ||
+            (await adminFetch(`/products/${id}/images/signature`, {
+              method: "POST",
+              body: {},
+            })).data;
+          nextSignature = null;
+
+          const fd = new FormData();
+          fd.append("file", file);
+          fd.append("api_key", uploadSignature.apiKey);
+          fd.append("timestamp", String(uploadSignature.timestamp));
+          fd.append("public_id", uploadSignature.publicId);
+          fd.append("signature", uploadSignature.signature);
+
+          const response = await fetch(
+            `https://api.cloudinary.com/v1_1/${encodeURIComponent(uploadSignature.cloudName)}/image/upload`,
+            { method: "POST", body: fd }
+          );
+          const result = await response.json();
+          if (!response.ok) {
+            throw new Error(result.error?.message || "Cloudinary image upload failed");
+          }
+          if (!result.secure_url) {
+            throw new Error("Cloudinary did not return a secure image URL");
+          }
+          uploadedUrls.push(result.secure_url);
+        }
+
+        const { data } = await adminFetch(`/products/${id}/images/attach`, {
+          method: "POST",
+          body: { images: uploadedUrls },
+        });
         setExistingImages(data.images);
         originalImages.current = data.images;
       }

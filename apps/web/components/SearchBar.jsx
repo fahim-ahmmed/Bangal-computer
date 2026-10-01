@@ -5,8 +5,9 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { Input } from "@heroui/react";
 import { formatBDT } from "@/lib/format";
+import { getApiBaseUrl } from "@/lib/deployment-config";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+const API_URL = getApiBaseUrl();
 
 export default function SearchBar() {
   const [q, setQ] = useState("");

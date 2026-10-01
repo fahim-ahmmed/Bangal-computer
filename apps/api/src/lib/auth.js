@@ -12,14 +12,14 @@
  * this file just exposes the reusable middleware.
  */
 
-const WEB_ORIGIN = process.env.WEB_ORIGIN || "http://localhost:3000";
+import { getWebOrigin } from "./runtime-urls.js";
 
 export async function getSessionFromRequest(req) {
   const cookie = req.headers.cookie;
   if (!cookie) return null;
 
   try {
-    const resp = await fetch(`${WEB_ORIGIN}/api/auth/get-session`, {
+    const resp = await fetch(`${getWebOrigin()}/api/auth/get-session`, {
       headers: { cookie },
     });
     if (!resp.ok) return null;

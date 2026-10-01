@@ -3,8 +3,9 @@
 import { useEffect, useState, useCallback } from "react";
 import { Button, TextInput, Select, Table, Card, Text, Icon } from "@gravity-ui/uikit";
 import { Plus, TrashBin } from "@gravity-ui/icons";
+import { getApiBaseUrl } from "@/lib/deployment-config";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+const API_URL = getApiBaseUrl();
 
 /**
  * Category tree management for admins/staff. Talks directly to the

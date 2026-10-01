@@ -8,6 +8,7 @@ import EmiInfo from "@/components/EmiInfo";
 import RelatedProducts from "@/components/RelatedProducts";
 import AddToCartBar from "@/components/AddToCartBar";
 import ProductReviews from "@/components/ProductReviews";
+import { getSiteOrigin } from "@/lib/deployment-config";
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
@@ -54,7 +55,7 @@ export default async function ProductDetailPage({ params }) {
       priceCurrency: "BDT",
       price: displayPrice,
       availability: inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
-      url: `${process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"}/product/${product.slug}`,
+      url: `${getSiteOrigin()}/product/${product.slug}`,
     },
     ...(product.rating?.count > 0
       ? { aggregateRating: { "@type": "AggregateRating", ratingValue: product.rating.avg, reviewCount: product.rating.count } }

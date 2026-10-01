@@ -1,13 +1,13 @@
 import { Router } from "express";
 import Order from "../models/Order.js";
 import { confirmPayment } from "../lib/payments/index.js";
+import { getWebOrigin } from "../lib/runtime-urls.js";
 import { restoreStock, clearCartFor } from "./orders.js";
 
 const router = Router();
-const WEB = process.env.WEB_ORIGIN || "http://localhost:3000";
 
-const okUrl = (id) => `${WEB}/order-confirmation/${id}`;
-const failUrl = (id) => `${WEB}/checkout/failed${id ? `?orderId=${id}` : ""}`;
+const okUrl = (id) => `${getWebOrigin()}/order-confirmation/${id}`;
+const failUrl = (id) => `${getWebOrigin()}/checkout/failed${id ? `?orderId=${id}` : ""}`;
 
 async function markFailed(order) {
   if (order.paymentStatus === "pending") {

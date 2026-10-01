@@ -1,40 +1,45 @@
-# Bangal Computer — Deployment
+# Bangal Computer — One-project Vercel deployment
 
-## Vercel frontend
+The repository is configured to deploy the Next.js storefront and Express API together as Vercel Services. Services are currently **Beta** and available on Vercel plans. A Git push to the connected production branch builds and deploys both services in one deployment.
 
-Import this repository into Vercel and set **Root Directory** to `apps/web`. Use the Next.js framework preset.
+## Vercel project setup
 
-Add these environment variables to Vercel (Production and Preview as appropriate):
+1. Import this repository into Vercel and keep **Root Directory** at the repository root. Do not set it to `apps/web`.
+2. Keep the Next.js frontend and Express API under the `services` configuration in the root `vercel.json`.
+3. Add the environment variables below in the Vercel project settings. Project-level variables are shared by both services.
+4. Push to the connected production branch to build and deploy the whole app together.
 
-| Variable | Value |
-| --- | --- |
-| `BETTER_AUTH_SECRET` | A newly generated private secret. Generate locally with `node -e "console.log(require('crypto').randomBytes(32).toString('base64url'))"`. |
-| `BETTER_AUTH_URL` | Canonical frontend HTTPS URL, e.g. `https://your-site.vercel.app` |
-| `NEXT_PUBLIC_APP_URL` | Same canonical frontend URL |
-| `NEXT_PUBLIC_SITE_URL` | Same canonical frontend URL |
-| `NEXT_PUBLIC_API_URL` | Actual frontend URL ending in `/backend/api`, e.g. `https://your-site.vercel.app/backend/api` |
-| `API_PROXY_ORIGIN` | API host origin only, e.g. `https://your-api.example.com` (no path or trailing slash) |
-| `MONGODB_URI` | Production MongoDB Atlas URI, including the intended database name |
-| `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET` | Optional; required only for Google sign-in |
-| `FACEBOOK_CLIENT_ID`, `FACEBOOK_CLIENT_SECRET` | Optional; required only for Facebook sign-in |
-
-Vercel does not expand references such as `${NEXT_PUBLIC_SITE_URL}` inside another environment variable; enter the full `NEXT_PUBLIC_API_URL`.
-
-## Express API host
-
-The `apps/api` service starts its own Express server and must run on a separate Node.js host that supports long-running servers. Set:
+Required Vercel environment variables:
 
 | Variable | Value |
 | --- | --- |
-| `MONGODB_URI` | Same Atlas URI and database as the Vercel frontend |
-| `WEB_ORIGIN` | Canonical frontend HTTPS origin, e.g. `https://your-site.vercel.app` |
-| `API_PUBLIC_URL` | API host HTTPS origin, e.g. `https://your-api.example.com` |
-| `NODE_ENV` | `production` |
-| `CLOUDINARY_CLOUD_NAME`, `CLOUDINARY_API_KEY`, `CLOUDINARY_API_SECRET` | Configure for durable product image uploads; do not rely on ephemeral local disk |
-| `BKASH_BASE_URL`, `BKASH_APP_KEY`, `BKASH_APP_SECRET`, `BKASH_USERNAME`, `BKASH_PASSWORD` | Configure production bKash merchant credentials for live payments |
-| `SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`, `SMTP_USER`, `SMTP_PASS`, `SMTP_FROM` | Optional; configure for email notifications |
-| `SMS_API_URL`, `SMS_API_KEY` | Optional; configure for SMS notifications |
+| `BETTER_AUTH_SECRET` | A new private random secret. Generate locally with `node -e "console.log(require('crypto').randomBytes(32).toString('base64url'))"`. |
+| `MONGODB_URI` | Production MongoDB Atlas URI with the intended database name; both services use this database. |
+| `NEXT_PUBLIC_API_URL` | `/backend/api` |
+| `CLOUDINARY_CLOUD_NAME` | Cloudinary cloud name; required for durable product-image uploads. |
+| `CLOUDINARY_API_KEY` | Cloudinary API key. |
+| `CLOUDINARY_API_SECRET` | Cloudinary secret; keep private. |
 
-The web app's `/backend/*` rewrite forwards API calls to `API_PROXY_ORIGIN`, keeping browser API requests same-origin. The API verifies sessions by calling the web app at `WEB_ORIGIN`; it does not need `BETTER_AUTH_SECRET`. Use the same MongoDB URI on both services so authentication and catalog data share a database.
+For a custom production domain, also set `BETTER_AUTH_URL`, `WEB_ORIGIN`, and `NEXT_PUBLIC_SITE_URL` to that site's HTTPS origin (no trailing slash). If these are unset, Vercel's deployment URL is used. Leave `BACKEND_INTERNAL_URL` unset: Vercel provides it from the frontend-to-backend service binding. `API_PUBLIC_URL` is also not needed for Vercel; payment callback URLs use the shared deployment URL.
 
-Keep credentials in Vercel's Environment Variables and the API host's secret settings. Never place secrets in `NEXT_PUBLIC_*` variables or commit them to Git. The checked-in `apps/web/.env.example` and `apps/api/.env.example` files are templates. Rotate any MongoDB or auth credentials that were previously committed in Git history; editing a template does not remove older values from history.
+Optional integrations:
+
+- Add `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` or `FACEBOOK_CLIENT_ID` and `FACEBOOK_CLIENT_SECRET` to enable social sign-in, and register the deployed site's Better Auth callback URL with the provider.
+- Add production bKash credentials and `BKASH_BASE_URL` for live bKash payments. Do not use sandbox credentials for live transactions.
+- Add `SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`, `SMTP_USER`, `SMTP_PASS`, and `SMTP_FROM` for email; add `SMS_API_URL` and `SMS_API_KEY` for SMS.
+
+Vercel limits each Function request body to 4.5 MB. Product images are uploaded directly from the browser to Cloudinary to avoid this limit. The existing CSV/Excel bulk-import endpoint still sends the file through the API, so keep import files below 4.5 MB on Vercel.
+
+All secrets belong in Vercel Environment Variables, never in `NEXT_PUBLIC_*` variables or committed files. `.env` files are for local development only. Rotate any database or auth credentials that were previously committed in Git history.
+
+## Local development
+
+Create `apps/api/.env` and `apps/web/.env.local` from their checked-in example files, set local MongoDB and a private auth secret, then run:
+
+```bash
+npm install
+npm run dev:api
+npm run dev:web
+```
+
+The local Express server continues to listen on port 5000; local frontend API requests use `http://localhost:5000/api`.
