@@ -12,7 +12,10 @@ const builderSlotSchema = new Schema(
     label: { type: String, required: true },
     order: { type: Number, default: 0 },
     required: { type: Boolean, default: true },
+    group: { type: String, default: "মূল কম্পোনেন্ট" },
+    subcategoryConfigured: { type: Boolean, default: false },
     subcategoryId: { type: Schema.Types.ObjectId, ref: "Category", default: null },
+    subcategoryIds: { type: [Schema.Types.ObjectId], ref: "Category", default: [] },
   },
   { timestamps: true }
 );
