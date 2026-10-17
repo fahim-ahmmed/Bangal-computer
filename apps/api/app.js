@@ -13,7 +13,12 @@ const app = express();
 
 app.use(
   cors({
-    origin: getWebOrigin(),
+    origin: (origin, callback) => {
+      const isLocalDevelopmentOrigin =
+        process.env.NODE_ENV !== "production" &&
+        /^http:\/\/(?:localhost|127\.0\.0\.1):\d+$/.test(origin || "");
+      callback(null, origin === getWebOrigin() || isLocalDevelopmentOrigin);
+    },
     credentials: true,
   })
 );

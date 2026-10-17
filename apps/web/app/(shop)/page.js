@@ -19,6 +19,14 @@ const shoppingTools = [
     accent: "from-red-50 to-white",
   },
   {
+    eyebrow: "নিরাপত্তা সেটআপ সাজান",
+    title: "CC Builder",
+    description: "ক্যামেরা, রেকর্ডার ও প্রয়োজনীয় অ্যাক্সেসরিজ বেছে নিন।",
+    href: "/cc-builder",
+    icon: "📹",
+    accent: "from-amber-50 to-white",
+  },
+  {
     eyebrow: "সহজে ল্যাপটপ খুঁজুন",
     title: "Laptop Finder",
     description: "কাজ, পড়াশোনা বা গেমিং—প্রয়োজন অনুযায়ী বেছে নিন।",
@@ -70,6 +78,19 @@ function SectionHeading({ eyebrow, title, href, linkLabel = "সব দেখু
   );
 }
 
+function EmptyHomeSection({ children, href, linkLabel }) {
+  return (
+    <div className="rounded-2xl border border-dashed border-neutral-300 bg-white px-5 py-8 text-center">
+      <p className="text-sm text-neutral-600">{children}</p>
+      {href && (
+        <Link href={href} className="mt-3 inline-flex text-sm font-bold text-brand hover:text-brand-dark">
+          {linkLabel} <span className="ml-1" aria-hidden="true">→</span>
+        </Link>
+      )}
+    </div>
+  );
+}
+
 export default async function HomePage() {
   const [tree, banners, happyHour, featured, latest, blogResult] = await Promise.all([
     getCategoryTree(),
@@ -115,6 +136,12 @@ export default async function HomePage() {
                   className="inline-flex min-h-11 items-center gap-2 rounded-lg border border-white/25 bg-neutral-950/35 px-5 py-3 text-sm font-bold text-white backdrop-blur-sm transition hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                   <span aria-hidden="true">🖥️</span> PC Builder
+                </Link>
+                <Link
+                  href="/cc-builder"
+                  className="inline-flex min-h-11 items-center gap-2 rounded-lg border border-white/25 bg-neutral-950/35 px-5 py-3 text-sm font-bold text-white backdrop-blur-sm transition hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                >
+                  <span aria-hidden="true">📹</span> CC Builder
                 </Link>
               </div>
               <div className="mt-6 hidden flex-wrap gap-x-5 gap-y-2 text-xs font-medium text-neutral-200 sm:flex lg:mt-8">
@@ -227,7 +254,7 @@ export default async function HomePage() {
 
         <section className="pt-10 sm:pt-14">
           <SectionHeading eyebrow="কাজকে করুন আরও সহজ" title="স্মার্ট কেনাকাটার টুলস" />
-          <div className="grid gap-3 sm:grid-cols-3">
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {shoppingTools.map((tool) => (
               <Link
                 key={tool.href}
@@ -248,27 +275,35 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {featuredProducts.length > 0 && (
-          <section className="pt-10 sm:pt-14">
-            <SectionHeading
-              eyebrow="আপনার জন্য বাছাই করা"
-              title="ফিচার্ড প্রোডাক্ট"
-              href="/search?sort=featured"
-            />
+        <section className="pt-10 sm:pt-14">
+          <SectionHeading
+            eyebrow="আপনার জন্য বাছাই করা"
+            title="ফিচার্ড প্রোডাক্ট"
+            href="/search?sort=featured"
+          />
+          {featuredProducts.length > 0 ? (
             <ProductGrid products={featuredProducts} />
-          </section>
-        )}
+          ) : (
+            <EmptyHomeSection href="/search?sort=featured" linkLabel="প্রোডাক্ট খুঁজুন">
+              এখনো কোনো ফিচার্ড প্রোডাক্ট যোগ করা হয়নি।
+            </EmptyHomeSection>
+          )}
+        </section>
 
-        {latestProducts.length > 0 && (
-          <section className="pt-10 sm:pt-14">
-            <SectionHeading
-              eyebrow="সদ্য যোগ হয়েছে"
-              title="নতুন প্রোডাক্ট"
-              href="/search?sort=newest"
-            />
+        <section className="pt-10 sm:pt-14">
+          <SectionHeading
+            eyebrow="সদ্য যোগ হয়েছে"
+            title="নতুন প্রোডাক্ট"
+            href="/search?sort=newest"
+          />
+          {latestProducts.length > 0 ? (
             <ProductGrid products={latestProducts} />
-          </section>
-        )}
+          ) : (
+            <EmptyHomeSection href="/search?sort=newest" linkLabel="প্রোডাক্ট খুঁজুন">
+              এখনো কোনো নতুন প্রোডাক্ট যোগ করা হয়নি।
+            </EmptyHomeSection>
+          )}
+        </section>
 
         <section className="pt-10 sm:pt-14">
           <div className="relative isolate flex min-h-[300px] flex-col justify-center overflow-hidden rounded-3xl bg-neutral-950 px-6 py-8 text-white shadow-xl shadow-neutral-900/10 sm:px-10 sm:py-10 lg:min-h-[320px] lg:px-14">
@@ -311,9 +346,9 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {posts.length > 0 && (
-          <section className="pt-10 sm:pt-14">
-            <SectionHeading eyebrow="জানুন, শিখুন, আপডেট থাকুন" title="ব্লগ ও টেক নিউজ" href="/blog" />
+        <section className="pt-10 sm:pt-14">
+          <SectionHeading eyebrow="জানুন, শিখুন, আপডেট থাকুন" title="ব্লগ ও টেক নিউজ" href="/blog" />
+          {posts.length > 0 ? (
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {posts.map((post) => (
                 <Link
@@ -347,8 +382,12 @@ export default async function HomePage() {
                 </Link>
               ))}
             </div>
-          </section>
-        )}
+          ) : (
+            <EmptyHomeSection href="/blog" linkLabel="সব খবর দেখুন">
+              এখনো কোনো ব্লগ বা টেক নিউজ প্রকাশিত হয়নি।
+            </EmptyHomeSection>
+          )}
+        </section>
       </div>
     </div>
   );

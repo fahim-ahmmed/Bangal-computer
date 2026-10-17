@@ -48,6 +48,7 @@ export default function Footer() {
             <h3 className="text-sm font-bold text-white">স্মার্ট টুলস</h3>
             <ul className="mt-4 space-y-3 text-sm">
               <li><Link href="/pc-builder" className="transition-colors hover:text-white">PC Builder</Link></li>
+              <li><Link href="/cc-builder" className="transition-colors hover:text-white">CC Builder</Link></li>
               <li><Link href="/laptop-finder" className="transition-colors hover:text-white">Laptop Finder</Link></li>
               <li><Link href="/ac-calculator" className="transition-colors hover:text-white">AC Ton ক্যালকুলেটর</Link></li>
             </ul>

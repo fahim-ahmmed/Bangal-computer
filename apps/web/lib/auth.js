@@ -3,39 +3,57 @@ import { mongodbAdapter } from "better-auth/adapters/mongodb";
 import { admin } from "better-auth/plugins";
 import { MongoClient } from "mongodb";
 
-const mongoUri = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/bangal-computer";
+const mongoUri =
+  process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/bangal-computer";
 const client = new MongoClient(mongoUri);
 const db = client.db();
+
 const siteOrigin =
   process.env.BETTER_AUTH_URL ||
-  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+  (process.env.VERCEL_URL
+    ? `https://${process.env.VERCEL_URL}`
+    : "http://localhost:3001");
 
-/**
- * Central Better Auth instance. Runs on the Next.js side (apps/web)
- * so session cookies stay same-origin and the client SDK "just works".
- * The Express API (apps/api) verifies sessions by calling
- * /api/auth/get-session with the forwarded cookie — see apps/api/src/lib/auth.js.
- */
 export const auth = betterAuth({
   database: mongodbAdapter(db),
 
   secret: process.env.BETTER_AUTH_SECRET,
   baseURL: siteOrigin,
 
+  // 🚀 Invalid origin চিরতরে বন্ধ করার জন্য Trusted Origins যুক্ত করা হলো
+  trustedOrigins: [
+    "http://localhost:3000",
+    "http://localhost:3001",
+    "http://localhost:3002",
+    "http://localhost:5000",
+    "http://127.0.0.1:3000",
+    "http://127.0.0.1:3001",
+    siteOrigin,
+  ],
+
   emailAndPassword: {
     enabled: true,
     requireEmailVerification: false,
   },
 
+  // 🚀 খালি আইডি থাকলে সোশাল প্রোভাইডার ইগনোর করার লজিক
   socialProviders: {
-    google: {
-      clientId: process.env.GOOGLE_CLIENT_ID || "",
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET || "",
-    },
-    facebook: {
-      clientId: process.env.FACEBOOK_CLIENT_ID || "",
-      clientSecret: process.env.FACEBOOK_CLIENT_SECRET || "",
-    },
+    ...(process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_SECRET
+      ? {
+          google: {
+            clientId: process.env.GOOGLE_CLIENT_ID,
+            clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+          },
+        }
+      : {}),
+    ...(process.env.FACEBOOK_CLIENT_ID && process.env.FACEBOOK_CLIENT_SECRET
+      ? {
+          facebook: {
+            clientId: process.env.FACEBOOK_CLIENT_ID,
+            clientSecret: process.env.FACEBOOK_CLIENT_SECRET,
+          },
+        }
+      : {}),
   },
 
   plugins: [
@@ -86,8 +104,8 @@ export const auth = betterAuth({
     additionalFields: {
       role: {
         type: "string",
-        defaultValue: "customer", // customer | staff | admin
-        input: false, // never settable directly from the client
+        defaultValue: "customer",
+        input: false,
       },
       phone: {
         type: "string",

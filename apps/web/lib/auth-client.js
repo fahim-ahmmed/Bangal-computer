@@ -3,14 +3,19 @@
 import { createAuthClient } from "better-auth/react";
 import { adminClient } from "better-auth/client/plugins";
 
-export const authClient = createAuthClient({
-  baseURL:
+const getBaseUrl = () => {
+  if (typeof window !== "undefined") {
+    return window.location.origin;
+  }
+  return (
     process.env.NEXT_PUBLIC_APP_URL ||
-    (typeof window !== "undefined"
-      ? window.location.origin
-      : process.env.VERCEL_URL
-        ? `https://${process.env.VERCEL_URL}`
-        : "http://localhost:3000"),
+    process.env.NEXT_PUBLIC_BETTER_AUTH_URL ||
+    "http://localhost:3001"
+  );
+};
+
+export const authClient = createAuthClient({
+  baseURL: getBaseUrl(),
   plugins: [adminClient()],
 });
 

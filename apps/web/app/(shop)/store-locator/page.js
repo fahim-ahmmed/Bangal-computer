@@ -7,6 +7,16 @@ export default async function StoreLocatorPage() {
     <div className="mx-auto max-w-6xl px-4 py-10">
       <h1 className="mb-2 text-2xl font-bold text-neutral-900">স্টোর লোকেটর</h1>
       <p className="mb-6 text-sm text-neutral-500">{branches.length}টি ব্রাঞ্চ — নিকটতম শোরুম খুঁজুন</p>
+      <a
+        href="https://maps.app.goo.gl/q1Dp6zyqLqztcaLn6"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mb-6 inline-flex min-h-11 items-center gap-2 rounded-lg bg-brand px-5 py-3 text-sm font-bold text-white transition hover:bg-brand-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+      >
+        <span aria-hidden="true">📍</span>
+        Google Maps-এ লোকেশন ও দিকনির্দেশনা দেখুন
+        <span aria-hidden="true">↗</span>
+      </a>
 
       {branches.length === 0 ? (
         <p className="text-neutral-400">এখনো কোনো ব্রাঞ্চ যোগ করা হয়নি।</p>
