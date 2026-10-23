@@ -8,15 +8,6 @@ const nextConfig = {
       { protocol: "https", hostname: "**.s3.amazonaws.com" },
     ],
   },
-  // 🚀 Invalid origin ফিক্স করার জন্য Rewrites যুক্ত করা হলো
-  async rewrites() {
-    return [
-      {
-        source: "/api/auth/:path*",
-        destination: "http://localhost:5000/api/auth/:path*",
-      },
-    ];
-  },
 };
 
 module.exports = nextConfig;

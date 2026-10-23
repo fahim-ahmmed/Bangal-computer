@@ -15,7 +15,7 @@ export async function getProducts(filters = {}) {
     });
 
     const res = await fetch(`${API_URL}/products?${params.toString()}`, {
-      next: { revalidate: 60 },
+      cache: "no-store",
     });
     if (!res.ok) return { items: [], pagination: null, facets: { price: { min: 0, max: 0 }, brands: [] } };
 

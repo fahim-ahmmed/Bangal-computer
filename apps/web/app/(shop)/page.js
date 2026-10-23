@@ -21,7 +21,7 @@ const shoppingTools = [
   {
     eyebrow: "নিরাপত্তা সেটআপ সাজান",
     title: "CC Builder",
-    description: "ক্যামেরা, রেকর্ডার ও প্রয়োজনীয় অ্যাক্সেসরিজ বেছে নিন।",
+    description: "ক্যামেরা, রেকর্ডার ও প্রয়োজনীয় অ্যাক্সেসরিজ বেছে নিন।",
     href: "/cc-builder",
     icon: "📹",
     accent: "from-amber-50 to-white",
@@ -29,7 +29,7 @@ const shoppingTools = [
   {
     eyebrow: "সহজে ল্যাপটপ খুঁজুন",
     title: "Laptop Finder",
-    description: "কাজ, পড়াশোনা বা গেমিং—প্রয়োজন অনুযায়ী বেছে নিন।",
+    description: "কাজ, পড়াশোনা বা গেমিং—প্রয়োজন অনুযায়ী বেছে নিন।",
     href: "/laptop-finder",
     icon: "💻",
     accent: "from-blue-50 to-white",
@@ -37,7 +37,7 @@ const shoppingTools = [
   {
     eyebrow: "সঠিক কুলিং প্ল্যান",
     title: "AC ক্যালকুলেটর",
-    description: "রুমের মাপ অনুযায়ী প্রয়োজনীয় AC ক্যাপাসিটি জানুন।",
+    description: "রুমের মাপ অনুযায়ী প্রয়োজনীয় AC ক্যাপাসিটি জানুন।",
     href: "/ac-calculator",
     icon: "❄️",
     accent: "from-cyan-50 to-white",
@@ -92,7 +92,7 @@ function EmptyHomeSection({ children, href, linkLabel }) {
 }
 
 export default async function HomePage() {
-  const [tree, banners, happyHour, featured, latest, blogResult] = await Promise.all([
+  const [tree, dbBanners, happyHour, featured, latest, blogResult] = await Promise.all([
     getCategoryTree(),
     cmsApi.banners().catch(() => []),
     cmsApi.happyHour().catch(() => ({ active: false })),
@@ -100,10 +100,16 @@ export default async function HomePage() {
     getProducts({ sort: "newest", limit: 8 }).catch(() => ({ items: [] })),
     blogApi.list(1).catch(() => ({ data: [] })),
   ]);
+
   const featuredProducts = featured.items || [];
   const latestProducts = latest.items || [];
-  const heroProduct = featuredProducts[0] || latestProducts[0];
   const posts = (blogResult.data || []).slice(0, 3);
+
+  // লোকাল ফোল্ডারের pic1.jpg ও pic2.jpg দিয়ে ব্যানার স্লাইডার সেটআপ
+  const banners = dbBanners.length > 0 ? dbBanners : [
+    { image: "/images/pic1.jpg", title: "আপনার পরের টেক আপগ্রেড শুরু হোক এখানেই", link: "/search" },
+    { image: "/images/pic2.jpg", title: "সেরা মূল্যে প্রিমিয়াম গেমিং ও ল্যাপটপ কালেকশন", link: "/search" }
+  ];
 
   return (
     <div className="overflow-hidden bg-[#f5f6f7] pb-14">
@@ -114,7 +120,7 @@ export default async function HomePage() {
             <div className="relative z-10 flex flex-col justify-center px-5 py-8 sm:px-10 sm:py-12 lg:px-14 lg:py-14">
               <span className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-xs font-semibold text-white/90 backdrop-blur-sm sm:mb-5">
                 <span className="h-1.5 w-1.5 rounded-full bg-red-400" />
-                প্রযুক্তির পছন্দ, এখন এক জায়গায়
+                প্রযুক্তির পছন্দ, এখন এক জায়গায়
               </span>
               <h1 className="max-w-xl text-[2rem] font-extrabold !leading-[1.2] tracking-tight text-white sm:text-4xl lg:text-[3rem] xl:text-[3.25rem]">
                 <span className="block">আপনার পরের</span>
@@ -122,7 +128,7 @@ export default async function HomePage() {
                 <span className="block">শুরু হোক এখানেই</span>
               </h1>
               <p className="mt-3 max-w-lg text-sm leading-6 text-neutral-200 sm:mt-4 sm:text-base sm:leading-8">
-                ল্যাপটপ, কম্পিউটার, কম্পোনেন্ট ও প্রয়োজনীয় টেক অ্যাক্সেসরিজ—খুঁজে নিন আপনার কাজ ও বাজেটের জন্য।
+                ল্যাপটপ, কম্পিউটার, কম্পোনেন্ট ও প্রয়োজনীয় টেক অ্যাক্সেসরিজ—খুঁজে নিন আপনার কাজ ও বাজেটের জন্য।
               </p>
               <div className="mt-5 flex flex-wrap gap-3 sm:mt-7">
                 <Link
@@ -152,36 +158,7 @@ export default async function HomePage() {
             </div>
 
             <div className="absolute inset-0 -z-10 overflow-hidden lg:relative lg:inset-auto lg:z-0 lg:min-h-full">
-              {banners.length > 0 ? (
-                <BannerSlider banners={banners} />
-              ) : heroProduct?.images?.[0] ? (
-                <Link
-                  href={`/product/${heroProduct.slug}`}
-                  className="group absolute inset-0 block bg-neutral-900"
-                >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={heroProduct.images[0]}
-                    alt={heroProduct.title}
-                    className="absolute inset-0 h-full w-full object-cover opacity-80 transition-transform duration-700 group-hover:scale-[1.04]"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-neutral-950/90 via-neutral-950/10 to-neutral-950/10" />
-                  <div className="absolute inset-x-0 bottom-0 p-6 sm:p-9">
-                    <span className="inline-flex rounded-full bg-white/15 px-3 py-1 text-xs font-semibold text-white backdrop-blur">
-                      এই মুহূর্তের পছন্দ
-                    </span>
-                    <p className="mt-3 max-w-lg text-lg font-bold leading-snug text-white sm:text-2xl">
-                      {heroProduct.title}
-                    </p>
-                    <span className="mt-2 inline-flex items-center gap-2 text-sm font-semibold text-white">
-                      {formatBDT(heroProduct.discountPrice || heroProduct.price)}
-                      <span aria-hidden="true">↗</span>
-                    </span>
-                  </div>
-                </Link>
-              ) : (
-                <TechnologyImageSlider />
-              )}
+              <BannerSlider banners={banners} />
               <div className="absolute inset-0 bg-gradient-to-r from-neutral-950 via-neutral-950/80 to-neutral-950/35 lg:hidden" />
             </div>
           </div>
@@ -194,8 +171,8 @@ export default async function HomePage() {
           className="mt-5 grid overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm sm:grid-cols-3"
         >
           {[
-            ["⌕", "সহজে খুঁজে নিন", "সার্চ ও ক্যাটাগরি দিয়ে পছন্দের পণ্য"],
-            ["⇄", "তুলনা করে বাছুন", "একাধিক প্রোডাক্টের ফিচার মিলিয়ে দেখুন"],
+            ["⌕", "সহজে খুঁজে নিন", "সার্চ ও ক্যাটাগরি দিয়ে পছন্দের পণ্য"],
+            ["⇄", "তুলনা করে বাছুন", "একাধিক প্রোডাক্টের ফিচার মিলিয়ে দেখুন"],
             ["⌖", "স্টোর খুঁজে নিন", "আপনার কাছের ব্রাঞ্চের তথ্য দেখুন"],
           ].map(([icon, title, description], index) => (
             <div
@@ -216,7 +193,7 @@ export default async function HomePage() {
         <section id="categories" className="scroll-mt-40 pt-10 sm:pt-14">
           <SectionHeading
             eyebrow="শপ বাই ডিপার্টমেন্ট"
-            title="আপনার প্রয়োজনের বিভাগ"
+            title="আপনার প্রয়োজনের বিভাগ"
             href="/search"
             linkLabel="সব ক্যাটাগরি"
           />
@@ -247,7 +224,7 @@ export default async function HomePage() {
             </div>
           ) : (
             <p className="rounded-2xl border border-neutral-200 bg-white p-5 text-sm text-neutral-500">
-              কোনো ক্যাটাগরি পাওয়া যায়নি। ক্যাটাগরি seed করে আবার চেষ্টা করুন।
+              কোনো ক্যাটাগরি পাওয়া যায়নি। ক্যাটাগরি seed করে আবার চেষ্টা করুন।
             </p>
           )}
         </section>
@@ -285,14 +262,14 @@ export default async function HomePage() {
             <ProductGrid products={featuredProducts} />
           ) : (
             <EmptyHomeSection href="/search?sort=featured" linkLabel="প্রোডাক্ট খুঁজুন">
-              এখনো কোনো ফিচার্ড প্রোডাক্ট যোগ করা হয়নি।
+              এখনো কোনো ফিচার্ড প্রোডাক্ট যোগ করা হয়নি।
             </EmptyHomeSection>
           )}
         </section>
 
         <section className="pt-10 sm:pt-14">
           <SectionHeading
-            eyebrow="সদ্য যোগ হয়েছে"
+            eyebrow="সদ্য যোগ হয়েছে"
             title="নতুন প্রোডাক্ট"
             href="/search?sort=newest"
           />
@@ -300,7 +277,7 @@ export default async function HomePage() {
             <ProductGrid products={latestProducts} />
           ) : (
             <EmptyHomeSection href="/search?sort=newest" linkLabel="প্রোডাক্ট খুঁজুন">
-              এখনো কোনো নতুন প্রোডাক্ট যোগ করা হয়নি।
+              এখনো কোনো নতুন প্রোডাক্ট যোগ করা হয়নি।
             </EmptyHomeSection>
           )}
         </section>
@@ -319,14 +296,14 @@ export default async function HomePage() {
             <div className="max-w-2xl">
               <p className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-xs font-bold tracking-wide text-white/90 backdrop-blur-sm">
                 <span className="h-1.5 w-1.5 rounded-full bg-red-400" />
-                কেনার আগে পরিকল্পনা করুন
+                কেনාর আগে পরিকল্পনা করুন
               </p>
               <h2 className="mt-4 text-2xl font-extrabold leading-snug sm:text-3xl lg:text-4xl">
                 আপনার সেটআপ,
                 <span className="text-red-300"> আপনার সিদ্ধান্ত</span>
               </h2>
               <p className="mt-3 max-w-xl text-sm leading-7 text-white/80 sm:text-base">
-                পিসির যন্ত্রাংশ মিলিয়ে নিন, তুলনা করে দেখুন, অথবা ব্যবহার অনুযায়ী ল্যাপটপ খুঁজে নিন।
+                পিসির যন্ত্রাংশ মিলিয়ে নিন, তুলনা করে দেখুন, অথবা ব্যবহার অনুযায়ী ল্যাপটপ খুঁজে নিন।
               </p>
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
@@ -376,7 +353,7 @@ export default async function HomePage() {
                     </h3>
                     {post.excerpt && <p className="mt-2 line-clamp-2 text-sm leading-6 text-neutral-500">{post.excerpt}</p>}
                     <span className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-brand">
-                      বিস্তারিত পড়ুন <span aria-hidden="true">→</span>
+                      বিস্তারিত পড়ুন <span aria-hidden="true">→</span>
                     </span>
                   </div>
                 </Link>
@@ -384,7 +361,7 @@ export default async function HomePage() {
             </div>
           ) : (
             <EmptyHomeSection href="/blog" linkLabel="সব খবর দেখুন">
-              এখনো কোনো ব্লগ বা টেক নিউজ প্রকাশিত হয়নি।
+              এখনো কোনো ব্লগ বা টেক নিউজ প্রকাশিত হয়নি।
             </EmptyHomeSection>
           )}
         </section>
