@@ -14,12 +14,13 @@ async function call(path, options = {}) {
 }
 
 export const cmsApi = {
-  banners: () => call("/cms/banners", { next: { revalidate: 120 } }).then((r) => r.data),
+  banners: () => call("/cms/banners", { cache: "no-store" }).then((r) => r.data),
   bannersAdmin: () => call("/cms/banners/admin").then((r) => r.data),
   addBanner: (b) => call("/cms/banners", { method: "POST", body: JSON.stringify(b) }).then((r) => r.data),
   updateBanner: (id, b) => call(`/cms/banners/${id}`, { method: "PUT", body: JSON.stringify(b) }).then((r) => r.data),
   deleteBanner: (id) => call(`/cms/banners/${id}`, { method: "DELETE" }),
-  happyHour: () => call("/cms/happy-hour", { next: { revalidate: 60 } }).then((r) => r.data),
+  happyHour: () => call("/cms/happy-hour", { cache: "no-store" }).then((r) => r.data),
+  happyHourAdmin: () => call("/cms/happy-hour/admin").then((r) => r.data),
   setHappyHour: (h) => call("/cms/happy-hour", { method: "PUT", body: JSON.stringify(h) }).then((r) => r.data),
 };
 

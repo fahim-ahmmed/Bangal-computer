@@ -2,12 +2,13 @@ import mongoose from "mongoose";
 
 const { Schema } = mongoose;
 
-// Homepage hero/banner slider — admin-managed images with an optional link.
+// Homepage banners — "main" = বড় স্লাইডার, "side" = ডানের ছোট ব্যানার (সর্বোচ্চ ২টি দেখায়)
 const bannerSchema = new Schema(
   {
     image: { type: String, required: true },
     link: { type: String, default: null },
     title: { type: String, default: "" },
+    position: { type: String, enum: ["main", "side"], default: "main" },
     order: { type: Number, default: 0 },
     isActive: { type: Boolean, default: true },
   },

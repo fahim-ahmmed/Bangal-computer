@@ -4,7 +4,7 @@ import { getCategoryTree } from "@/lib/categories";
 import { blogApi, cmsApi } from "@/lib/content-client";
 import { formatBDT } from "@/lib/format";
 import { getProducts } from "@/lib/products";
-import BannerSlider from "@/components/BannerSlider";
+import BannerShowcase from "@/components/BannerShowcase";
 import HappyHourBanner from "@/components/HappyHourBanner";
 import ProductGrid from "@/components/ProductGrid";
 import TechnologyImageSlider from "@/components/TechnologyImageSlider";
@@ -92,7 +92,7 @@ function EmptyHomeSection({ children, href, linkLabel }) {
 }
 
 export default async function HomePage() {
-  const [tree, dbBanners, happyHour, featured, latest, blogResult] = await Promise.all([
+  const [tree, banners, happyHour, featured, latest, blogResult] = await Promise.all([
     getCategoryTree(),
     cmsApi.banners().catch(() => []),
     cmsApi.happyHour().catch(() => ({ active: false })),
@@ -100,20 +100,20 @@ export default async function HomePage() {
     getProducts({ sort: "newest", limit: 8 }).catch(() => ({ items: [] })),
     blogApi.list(1).catch(() => ({ data: [] })),
   ]);
-
   const featuredProducts = featured.items || [];
   const latestProducts = latest.items || [];
+  const heroProduct = featuredProducts[0] || latestProducts[0];
   const posts = (blogResult.data || []).slice(0, 3);
-
-  // লোকাল ফোল্ডারের pic1.jpg ও pic2.jpg দিয়ে ব্যানার স্লাইডার সেটআপ
-  const banners = dbBanners.length > 0 ? dbBanners : [
-    { image: "/images/pic1.jpg", title: "আপনার পরের টেক আপগ্রেড শুরু হোক এখানেই", link: "/search" },
-    { image: "/images/pic2.jpg", title: "সেরা মূল্যে প্রিমিয়াম গেমিং ও ল্যাপটপ কালেকশন", link: "/search" }
-  ];
+  const mainBanners = banners.filter((b) => b.position !== "side");
+  const sideBanners = banners.filter((b) => b.position === "side");
+  const hasBanners = banners.length > 0;
 
   return (
     <div className="overflow-hidden bg-[#f5f6f7] pb-14">
       <div className="mx-auto max-w-7xl px-4 pt-5 sm:pt-8">
+        {hasBanners ? (
+          <BannerShowcase main={mainBanners} side={sideBanners} />
+        ) : (
         <section className="relative isolate overflow-hidden rounded-2xl bg-neutral-950 shadow-xl shadow-neutral-900/10 sm:rounded-3xl">
           <div className="pointer-events-none absolute -right-24 -top-40 -z-10 h-96 w-96 rounded-full bg-brand/30 blur-3xl" />
           <div className="relative grid min-h-[440px] lg:min-h-[460px] lg:grid-cols-[0.9fr_1.1fr]">
@@ -158,11 +158,39 @@ export default async function HomePage() {
             </div>
 
             <div className="absolute inset-0 -z-10 overflow-hidden lg:relative lg:inset-auto lg:z-0 lg:min-h-full">
-              <BannerSlider banners={banners} />
+              {heroProduct?.images?.[0] ? (
+                <Link
+                  href={`/product/${heroProduct.slug}`}
+                  className="group absolute inset-0 block bg-neutral-900"
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={heroProduct.images[0]}
+                    alt={heroProduct.title}
+                    className="absolute inset-0 h-full w-full object-cover opacity-80 transition-transform duration-700 group-hover:scale-[1.04]"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-neutral-950/90 via-neutral-950/10 to-neutral-950/10" />
+                  <div className="absolute inset-x-0 bottom-0 p-6 sm:p-9">
+                    <span className="inline-flex rounded-full bg-white/15 px-3 py-1 text-xs font-semibold text-white backdrop-blur">
+                      এই মুহূর্তের পছন্দ
+                    </span>
+                    <p className="mt-3 max-w-lg text-lg font-bold leading-snug text-white sm:text-2xl">
+                      {heroProduct.title}
+                    </p>
+                    <span className="mt-2 inline-flex items-center gap-2 text-sm font-semibold text-white">
+                      {formatBDT(heroProduct.discountPrice || heroProduct.price)}
+                      <span aria-hidden="true">↗</span>
+                    </span>
+                  </div>
+                </Link>
+              ) : (
+                <TechnologyImageSlider />
+              )}
               <div className="absolute inset-0 bg-gradient-to-r from-neutral-950 via-neutral-950/80 to-neutral-950/35 lg:hidden" />
             </div>
           </div>
         </section>
+        )}
 
         <HappyHourBanner happyHour={happyHour} />
 
@@ -296,7 +324,7 @@ export default async function HomePage() {
             <div className="max-w-2xl">
               <p className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-xs font-bold tracking-wide text-white/90 backdrop-blur-sm">
                 <span className="h-1.5 w-1.5 rounded-full bg-red-400" />
-                কেনාর আগে পরিকল্পনা করুন
+                কেনার আগে পরিকল্পনা করুন
               </p>
               <h2 className="mt-4 text-2xl font-extrabold leading-snug sm:text-3xl lg:text-4xl">
                 আপনার সেটআপ,
