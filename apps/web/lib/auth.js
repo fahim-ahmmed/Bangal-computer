@@ -33,11 +33,36 @@ const client = globalForMongo._bcMongoClient ?? new MongoClient(mongoUri);
 globalForMongo._bcMongoClient = client;
 const db = client.db();
 
-const siteOrigin =
+const siteOrigin = (
   process.env.BETTER_AUTH_URL ||
-  (process.env.VERCEL_URL
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : process.env.VERCEL_URL
     ? `https://${process.env.VERCEL_URL}`
-    : "http://localhost:3001");
+    : "http://localhost:3001")
+)
+  .trim()
+  .replace(/\/+$/, "");
+
+const staticOrigins = [
+  "http://localhost:3000",
+  "http://localhost:3001",
+  "http://localhost:3002",
+  "http://localhost:5000",
+  "http://127.0.0.1:3000",
+  "http://127.0.0.1:3001",
+  "https://*.vercel.app",
+  siteOrigin,
+  process.env.NEXT_PUBLIC_SITE_URL,
+  process.env.NEXT_PUBLIC_APP_URL,
+  process.env.WEB_ORIGIN,
+  process.env.VERCEL_URL && `https://${process.env.VERCEL_URL}`,
+  process.env.VERCEL_BRANCH_URL && `https://${process.env.VERCEL_BRANCH_URL}`,
+  process.env.VERCEL_PROJECT_PRODUCTION_URL &&
+    `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`,
+]
+  .filter(Boolean)
+  .map((u) => String(u).trim().replace(/\/+$/, ""));
 
 export const auth = betterAuth({
   database: mongodbAdapter(db),
@@ -45,16 +70,18 @@ export const auth = betterAuth({
   secret: process.env.BETTER_AUTH_SECRET,
   baseURL: siteOrigin,
 
-  // Invalid origin এরর বন্ধ করার জন্য Trusted Origins
-  trustedOrigins: [
-    "http://localhost:3000",
-    "http://localhost:3001",
-    "http://localhost:3002",
-    "http://localhost:5000",
-    "http://127.0.0.1:3000",
-    "http://127.0.0.1:3001",
-    siteOrigin,
-  ],
+  // স্ট্যাটিক তালিকার সাথে অনুরোধের নিজের host-ও ট্রাস্ট করা হচ্ছে
+  trustedOrigins: async (request) => {
+    const list = [...staticOrigins];
+    const host =
+      request?.headers?.get("x-forwarded-host") || request?.headers?.get("host");
+    if (host) {
+      const proto =
+        host.startsWith("localhost") || host.startsWith("127.") ? "http" : "https";
+      list.push(`${proto}://${host}`);
+    }
+    return list;
+  },
 
   emailAndPassword: {
     enabled: true,
