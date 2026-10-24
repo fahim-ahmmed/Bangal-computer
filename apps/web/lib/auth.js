@@ -3,9 +3,34 @@ import { mongodbAdapter } from "better-auth/adapters/mongodb";
 import { admin } from "better-auth/plugins";
 import { MongoClient } from "mongodb";
 
-const mongoUri =
-  process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/bangal-computer";
-const client = new MongoClient(mongoUri);
+/**
+ * Vercel-এ MONGODB_URI পেস্ট করার সময় প্রায়ই কোটেশন, স্পেস বা
+ * "MONGODB_URI=" লেখাসহ ঢুকে যায়। এখানে সেগুলো পরিষ্কার করা হচ্ছে।
+ */
+function cleanMongoUri(raw) {
+  const value = String(raw || "")
+    .trim()
+    .replace(/^MONGODB_URI\s*=\s*/i, "")
+    .replace(/^['"]+|['"]+$/g, "")
+    .trim();
+  return /^mongodb(\+srv)?:\/\//.test(value) ? value : null;
+}
+
+const cleanedUri = cleanMongoUri(process.env.MONGODB_URI);
+
+if (!cleanedUri && process.env.NEXT_PHASE !== "phase-production-build") {
+  console.error(
+    "[auth] MONGODB_URI সঠিক নয় — mongodb:// বা mongodb+srv:// দিয়ে শুরু হতে হবে"
+  );
+}
+
+// সঠিক URI না থাকলেও যেন বিল্ড ক্র্যাশ না করে (MongoClient প্রথম ব্যবহারের আগে কানেক্ট করে না)
+const mongoUri = cleanedUri || "mongodb://127.0.0.1:27017/bangal-computer";
+
+// Serverless-এ বারবার নতুন কানেকশন না খুলে একটাই ক্লায়েন্ট ব্যবহার
+const globalForMongo = globalThis;
+const client = globalForMongo._bcMongoClient ?? new MongoClient(mongoUri);
+globalForMongo._bcMongoClient = client;
 const db = client.db();
 
 const siteOrigin =
@@ -20,7 +45,7 @@ export const auth = betterAuth({
   secret: process.env.BETTER_AUTH_SECRET,
   baseURL: siteOrigin,
 
-  // 🚀 Invalid origin চিরতরে বন্ধ করার জন্য Trusted Origins যুক্ত করা হলো
+  // Invalid origin এরর বন্ধ করার জন্য Trusted Origins
   trustedOrigins: [
     "http://localhost:3000",
     "http://localhost:3001",
@@ -36,7 +61,7 @@ export const auth = betterAuth({
     requireEmailVerification: false,
   },
 
-  // 🚀 খালি আইডি থাকলে সোশাল প্রোভাইডার ইগনোর করার লজিক
+  // খালি আইডি থাকলে সোশ্যাল প্রোভাইডার ইগনোর করার লজিক
   socialProviders: {
     ...(process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_SECRET
       ? {

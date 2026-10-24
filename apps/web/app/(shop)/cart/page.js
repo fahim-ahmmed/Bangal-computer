@@ -33,8 +33,8 @@ export default function CartPage() {
           <p className="text-gray-500 mb-8 leading-relaxed text-sm">
             আপনি এখনো কোনো পণ্য কার্টে যুক্ত করেননি। আমাদের লেটেস্ট প্রযুক্তি পণ্যগুলো দেখতে কেনাকাটা শুরু করুন।
           </p>
-          <Link 
-            href="/" 
+          <Link
+            href="/"
             className="inline-block w-full sm:w-auto bg-red-600 hover:bg-red-700 text-white font-bold py-3.5 px-8 rounded-xl transition shadow-md hover:shadow-lg"
           >
             কেনাকাটা শুরু করুন
@@ -47,7 +47,7 @@ export default function CartPage() {
   return (
     <div className="bg-[#f8f9fa] min-h-screen py-8 lg:py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 mb-8">
           <div>
             <div className="flex items-center gap-2 text-red-600 font-bold text-sm tracking-wider uppercase mb-1">
@@ -58,8 +58,8 @@ export default function CartPage() {
               কার্ট রিভিউ <span className="text-gray-400 font-medium text-lg ml-2">({cart.itemCount}টি পণ্য)</span>
             </h1>
           </div>
-          <Link 
-            href="/" 
+          <Link
+            href="/"
             className="text-sm font-semibold text-gray-600 hover:text-red-600 transition flex items-center gap-1.5"
           >
             <span aria-hidden="true">←</span> আরও কেনাকাটা করুন
@@ -67,7 +67,7 @@ export default function CartPage() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-          
+
           <section className="lg:col-span-8 space-y-4">
             <div className="hidden sm:grid grid-cols-12 gap-4 bg-white p-4 rounded-xl shadow-sm border border-gray-100 text-sm font-bold text-gray-500 uppercase tracking-wide">
               <div className="col-span-6 pl-2">প্রোডাক্ট</div>
@@ -77,10 +77,9 @@ export default function CartPage() {
             </div>
 
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden divide-y divide-gray-100">
-              {/* Fix: Added index to key to prevent React duplicate key errors */}
               {cart.items.map((item, index) => (
-                <div 
-                  key={`${item.productId}-${item.variantId || "base"}-${index}`} 
+                <div
+                  key={`${item.productId}-${item.variantId || "base"}-${index}`}
                   className="grid grid-cols-1 sm:grid-cols-12 gap-4 items-center p-4 sm:p-5 transition hover:bg-gray-50/50"
                 >
                   <div className="col-span-1 sm:col-span-6 flex items-center gap-4">
@@ -92,15 +91,16 @@ export default function CartPage() {
                     >
                       <TrashIcon className="w-4 h-4 sm:w-5 sm:h-5" />
                     </button>
-                    
+
                     <Link href={`/product/${item.slug}`} className="w-16 h-16 sm:w-20 sm:h-20 bg-gray-50 border border-gray-100 rounded-lg flex items-center justify-center p-2 shrink-0 group">
                       {item.image ? (
+                        // eslint-disable-next-line @next/next/no-img-element
                         <img src={item.image} alt={item.title} className="max-h-full object-contain group-hover:scale-105 transition-transform" />
                       ) : (
                         <span className="text-[10px] text-gray-400">No Image</span>
                       )}
                     </Link>
-                    
+
                     <div className="flex flex-col min-w-0">
                       <Link href={`/product/${item.slug}`} className="font-bold text-gray-800 hover:text-red-600 transition text-sm sm:text-base line-clamp-2 leading-snug">
                         {item.title}
@@ -175,9 +175,9 @@ export default function CartPage() {
                 <span className="text-2xl font-extrabold text-red-600">{formatBDT(cart.subtotal)}</span>
               </div>
 
-              <Button 
-                color="danger" 
-                radius="sm" 
+              <Button
+                color="danger"
+                radius="sm"
                 className="w-full h-12 text-base font-bold shadow-md hover:shadow-lg transition"
                 onClick={() => router.push("/checkout")}
               >
