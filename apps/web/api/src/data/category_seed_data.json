@@ -1,0 +1,7297 @@
+[
+  {
+    "main": "Desktop",
+    "sub": "AI PC",
+    "brand": null
+  },
+  {
+    "main": "Desktop",
+    "sub": "Desktop Offer",
+    "brand": null
+  },
+  {
+    "main": "Desktop",
+    "sub": "Star PC",
+    "brand": null
+  },
+  {
+    "main": "Desktop",
+    "sub": "Star PC - Intel PC",
+    "brand": null
+  },
+  {
+    "main": "Desktop",
+    "sub": "Star PC - Ryzen PC",
+    "brand": null
+  },
+  {
+    "main": "Desktop",
+    "sub": "Gaming PC - Intel PC",
+    "brand": null
+  },
+  {
+    "main": "Desktop",
+    "sub": "Gaming PC - Ryzen PC",
+    "brand": null
+  },
+  {
+    "main": "Desktop",
+    "sub": "Brand PC",
+    "brand": "Acer"
+  },
+  {
+    "main": "Desktop",
+    "sub": "Brand PC",
+    "brand": "ASUS"
+  },
+  {
+    "main": "Desktop",
+    "sub": "Brand PC",
+    "brand": "Dell"
+  },
+  {
+    "main": "Desktop",
+    "sub": "Brand PC",
+    "brand": "HP"
+  },
+  {
+    "main": "Desktop",
+    "sub": "Brand PC",
+    "brand": "Lenovo"
+  },
+  {
+    "main": "Desktop",
+    "sub": "Brand PC",
+    "brand": "MSI"
+  },
+  {
+    "main": "Desktop",
+    "sub": "Brand PC",
+    "brand": "Gigabyte"
+  },
+  {
+    "main": "Desktop",
+    "sub": "All-in-One PC",
+    "brand": "Dell"
+  },
+  {
+    "main": "Desktop",
+    "sub": "All-in-One PC",
+    "brand": "HP"
+  },
+  {
+    "main": "Desktop",
+    "sub": "All-in-One PC",
+    "brand": "ASUS"
+  },
+  {
+    "main": "Desktop",
+    "sub": "All-in-One PC",
+    "brand": "LENOVO"
+  },
+  {
+    "main": "Desktop",
+    "sub": "All-in-One PC",
+    "brand": "Walton"
+  },
+  {
+    "main": "Desktop",
+    "sub": "All-in-One PC",
+    "brand": "Teclast"
+  },
+  {
+    "main": "Desktop",
+    "sub": "All-in-One PC",
+    "brand": "AOC"
+  },
+  {
+    "main": "Desktop",
+    "sub": "All-in-One PC",
+    "brand": "Value-Top"
+  },
+  {
+    "main": "Desktop",
+    "sub": "All-in-One PC",
+    "brand": "Smart"
+  },
+  {
+    "main": "Desktop",
+    "sub": "Portable Mini PC",
+    "brand": "Asus"
+  },
+  {
+    "main": "Desktop",
+    "sub": "Apple Mac Mini",
+    "brand": null
+  },
+  {
+    "main": "Desktop",
+    "sub": "Apple iMac",
+    "brand": null
+  },
+  {
+    "main": "Desktop",
+    "sub": "Apple Mac Studio",
+    "brand": null
+  },
+  {
+    "main": "Desktop",
+    "sub": "Apple Mac Pro",
+    "brand": null
+  },
+  {
+    "main": "Laptop",
+    "sub": "All Laptop",
+    "brand": "Lenovo"
+  },
+  {
+    "main": "Laptop",
+    "sub": "All Laptop",
+    "brand": "MSI"
+  },
+  {
+    "main": "Laptop",
+    "sub": "All Laptop",
+    "brand": "HP"
+  },
+  {
+    "main": "Laptop",
+    "sub": "All Laptop",
+    "brand": "Asus"
+  },
+  {
+    "main": "Laptop",
+    "sub": "All Laptop",
+    "brand": "Tecno"
+  },
+  {
+    "main": "Laptop",
+    "sub": "All Laptop",
+    "brand": "Chuwi"
+  },
+  {
+    "main": "Laptop",
+    "sub": "All Laptop",
+    "brand": "MacBook"
+  },
+  {
+    "main": "Laptop",
+    "sub": "All Laptop",
+    "brand": "Gigabyte"
+  },
+  {
+    "main": "Laptop",
+    "sub": "All Laptop",
+    "brand": "Acer"
+  },
+  {
+    "main": "Laptop",
+    "sub": "All Laptop",
+    "brand": "Dell"
+  },
+  {
+    "main": "Laptop",
+    "sub": "All Laptop",
+    "brand": "Microsoft"
+  },
+  {
+    "main": "Laptop",
+    "sub": "All Laptop",
+    "brand": "Smart"
+  },
+  {
+    "main": "Laptop",
+    "sub": "All Laptop",
+    "brand": "Walton"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Gaming Laptop",
+    "brand": "MSI"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Gaming Laptop",
+    "brand": "Asus"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Gaming Laptop",
+    "brand": "Lenovo"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Gaming Laptop",
+    "brand": "Gigabyte"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Gaming Laptop",
+    "brand": "HP"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Gaming Laptop",
+    "brand": "Acer"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Gaming Laptop",
+    "brand": "Thunderobot"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Premium Ultrabook",
+    "brand": "HP"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Premium Ultrabook",
+    "brand": "Acer"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Premium Ultrabook",
+    "brand": "Lenovo"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Premium Ultrabook",
+    "brand": "Asus"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Premium Ultrabook",
+    "brand": "Dell"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Premium Ultrabook",
+    "brand": "Microsoft"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Premium Ultrabook",
+    "brand": "MSI"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Bag",
+    "brand": "Asus"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Bag",
+    "brand": "Dell"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Bag",
+    "brand": "Fantech"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Bag",
+    "brand": "Lenovo"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Bag",
+    "brand": "MaxGreen"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Bag",
+    "brand": "BWOO"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Bag",
+    "brand": "Targus"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Bag",
+    "brand": "Tucano"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Bag",
+    "brand": "UGREEN"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Bag",
+    "brand": "WiWU"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Bag",
+    "brand": "Xiaomi"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Bag",
+    "brand": "Arctic Hunter"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Bag",
+    "brand": "Honor"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Accessories",
+    "brand": "Laptop Cooler"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Accessories",
+    "brand": "Laptop Desk"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Accessories",
+    "brand": "Laptop RAM"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Accessories",
+    "brand": "Laptop Stand"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Accessories",
+    "brand": "Laptop Battery"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Accessories",
+    "brand": "Laptop Charger / Adapter"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Accessories",
+    "brand": "Display"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Accessories",
+    "brand": "Laptop Keyboard"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Accessories",
+    "brand": "Caddy"
+  },
+  {
+    "main": "Laptop",
+    "sub": "Laptop Finder",
+    "brand": null
+  },
+  {
+    "main": "Component",
+    "sub": "Processor",
+    "brand": "AMD"
+  },
+  {
+    "main": "Component",
+    "sub": "Processor",
+    "brand": "Intel"
+  },
+  {
+    "main": "Component",
+    "sub": "CPU Cooler",
+    "brand": "MSI"
+  },
+  {
+    "main": "Component",
+    "sub": "CPU Cooler",
+    "brand": "Antec"
+  },
+  {
+    "main": "Component",
+    "sub": "CPU Cooler",
+    "brand": "Gamdias"
+  },
+  {
+    "main": "Component",
+    "sub": "CPU Cooler",
+    "brand": "ARCTIC"
+  },
+  {
+    "main": "Component",
+    "sub": "CPU Cooler",
+    "brand": "Corsair"
+  },
+  {
+    "main": "Component",
+    "sub": "CPU Cooler",
+    "brand": "Ocypus"
+  },
+  {
+    "main": "Component",
+    "sub": "CPU Cooler",
+    "brand": "DeepCool"
+  },
+  {
+    "main": "Component",
+    "sub": "CPU Cooler",
+    "brand": "Asus"
+  },
+  {
+    "main": "Component",
+    "sub": "CPU Cooler",
+    "brand": "1STPLAYER"
+  },
+  {
+    "main": "Component",
+    "sub": "CPU Cooler",
+    "brand": "NZXT"
+  },
+  {
+    "main": "Component",
+    "sub": "CPU Cooler",
+    "brand": "Cooler Master"
+  },
+  {
+    "main": "Component",
+    "sub": "CPU Cooler",
+    "brand": "Cougar"
+  },
+  {
+    "main": "Component",
+    "sub": "CPU Cooler",
+    "brand": "Gigabyte"
+  },
+  {
+    "main": "Component",
+    "sub": "CPU Cooler",
+    "brand": "Xigmatek"
+  },
+  {
+    "main": "Component",
+    "sub": "CPU Cooler",
+    "brand": "Xtreme"
+  },
+  {
+    "main": "Component",
+    "sub": "CPU Cooler",
+    "brand": "TEAM"
+  },
+  {
+    "main": "Component",
+    "sub": "CPU Cooler",
+    "brand": "upHere"
+  },
+  {
+    "main": "Component",
+    "sub": "CPU Cooler",
+    "brand": "Yeston"
+  },
+  {
+    "main": "Component",
+    "sub": "CPU Cooler",
+    "brand": "Value-Top"
+  },
+  {
+    "main": "Component",
+    "sub": "Motherboard",
+    "brand": "MSI (Intel)"
+  },
+  {
+    "main": "Component",
+    "sub": "Motherboard",
+    "brand": "MSI (AMD)"
+  },
+  {
+    "main": "Component",
+    "sub": "Motherboard",
+    "brand": "ASRock (Intel)"
+  },
+  {
+    "main": "Component",
+    "sub": "Motherboard",
+    "brand": "ASRock (AMD)"
+  },
+  {
+    "main": "Component",
+    "sub": "Motherboard",
+    "brand": "ASUS (Intel)"
+  },
+  {
+    "main": "Component",
+    "sub": "Motherboard",
+    "brand": "ASUS (AMD)"
+  },
+  {
+    "main": "Component",
+    "sub": "Motherboard",
+    "brand": "GIGABYTE (Intel)"
+  },
+  {
+    "main": "Component",
+    "sub": "Motherboard",
+    "brand": "GIGABYTE (AMD)"
+  },
+  {
+    "main": "Component",
+    "sub": "Motherboard",
+    "brand": "Colorful (Intel)"
+  },
+  {
+    "main": "Component",
+    "sub": "Motherboard",
+    "brand": "Colorful (AMD)"
+  },
+  {
+    "main": "Component",
+    "sub": "Graphics Card",
+    "brand": "Colorful"
+  },
+  {
+    "main": "Component",
+    "sub": "Graphics Card",
+    "brand": "INNO3D"
+  },
+  {
+    "main": "Component",
+    "sub": "Graphics Card",
+    "brand": "MSI"
+  },
+  {
+    "main": "Component",
+    "sub": "Graphics Card",
+    "brand": "ASUS"
+  },
+  {
+    "main": "Component",
+    "sub": "Graphics Card",
+    "brand": "PNY"
+  },
+  {
+    "main": "Component",
+    "sub": "Graphics Card",
+    "brand": "GIGABYTE"
+  },
+  {
+    "main": "Component",
+    "sub": "Graphics Card",
+    "brand": "ZOTAC"
+  },
+  {
+    "main": "Component",
+    "sub": "Graphics Card",
+    "brand": "Manli"
+  },
+  {
+    "main": "Component",
+    "sub": "Graphics Card",
+    "brand": "NVIDIA"
+  },
+  {
+    "main": "Component",
+    "sub": "Graphics Card",
+    "brand": "Sapphire"
+  },
+  {
+    "main": "Component",
+    "sub": "Graphics Card",
+    "brand": "PowerColor"
+  },
+  {
+    "main": "Component",
+    "sub": "Graphics Card",
+    "brand": "GUNNIR"
+  },
+  {
+    "main": "Component",
+    "sub": "Graphics Card",
+    "brand": "Yeston"
+  },
+  {
+    "main": "Component",
+    "sub": "Graphics Card",
+    "brand": "ARKTEK"
+  },
+  {
+    "main": "Component",
+    "sub": "Graphics Card",
+    "brand": "AFOX"
+  },
+  {
+    "main": "Component",
+    "sub": "Graphics Card",
+    "brand": "OCPC"
+  },
+  {
+    "main": "Component",
+    "sub": "Graphics Card",
+    "brand": "PELADN"
+  },
+  {
+    "main": "Component",
+    "sub": "Graphics Card",
+    "brand": "Abit"
+  },
+  {
+    "main": "Component",
+    "sub": "Graphics Card",
+    "brand": "MAXSUN"
+  },
+  {
+    "main": "Component",
+    "sub": "Graphics Card",
+    "brand": "Unika"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Desktop)",
+    "brand": "TEAM"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Desktop)",
+    "brand": "Colorful"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Desktop)",
+    "brand": "Corsair"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Desktop)",
+    "brand": "Kingston"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Desktop)",
+    "brand": "V-Color"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Desktop)",
+    "brand": "G.Skill"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Desktop)",
+    "brand": "PNY"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Desktop)",
+    "brand": "AITC"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Desktop)",
+    "brand": "Lexar"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Desktop)",
+    "brand": "Netac"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Desktop)",
+    "brand": "OCPC"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Desktop)",
+    "brand": "OSCOO"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Desktop)",
+    "brand": "KingBank"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Laptop)",
+    "brand": "TEAM"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Laptop)",
+    "brand": "Adata"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Laptop)",
+    "brand": "G.Skill"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Laptop)",
+    "brand": "Lexar"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Laptop)",
+    "brand": "Corsair"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Laptop)",
+    "brand": "PNY"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Laptop)",
+    "brand": "OCPC"
+  },
+  {
+    "main": "Component",
+    "sub": "RAM (Laptop)",
+    "brand": "Netac"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "MSI"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "Antec"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "Gamdias"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "1STPLAYER"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "MaxGreen"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "Corsair"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "Cooler Master"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "Gigabyte"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "Asus"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "DeepCool"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "NZXT"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "Ocypus"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "Value-Top"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "Xtreme"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "Acer"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "Xigmatek"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "Cougar"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "OCPC"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "T-WOLF"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "Solitine"
+  },
+  {
+    "main": "Component",
+    "sub": "Power Supply",
+    "brand": "Huntkey"
+  },
+  {
+    "main": "Component",
+    "sub": "Hard Disk Drive",
+    "brand": "Toshiba"
+  },
+  {
+    "main": "Component",
+    "sub": "Hard Disk Drive",
+    "brand": "Western Digital"
+  },
+  {
+    "main": "Component",
+    "sub": "Hard Disk Drive",
+    "brand": "Seagate"
+  },
+  {
+    "main": "Component",
+    "sub": "Hard Disk Drive",
+    "brand": "Hikvision"
+  },
+  {
+    "main": "Component",
+    "sub": "Portable Hard Disk Drive",
+    "brand": "Transcend"
+  },
+  {
+    "main": "Component",
+    "sub": "Portable Hard Disk Drive",
+    "brand": "Western Digital"
+  },
+  {
+    "main": "Component",
+    "sub": "Portable Hard Disk Drive",
+    "brand": "Seagate"
+  },
+  {
+    "main": "Component",
+    "sub": "Portable Hard Disk Drive",
+    "brand": "Toshiba"
+  },
+  {
+    "main": "Component",
+    "sub": "SSD",
+    "brand": "TEAM"
+  },
+  {
+    "main": "Component",
+    "sub": "SSD",
+    "brand": "Colorful"
+  },
+  {
+    "main": "Component",
+    "sub": "SSD",
+    "brand": "MiPhi"
+  },
+  {
+    "main": "Component",
+    "sub": "SSD",
+    "brand": "Corsair"
+  },
+  {
+    "main": "Component",
+    "sub": "SSD",
+    "brand": "Kingston"
+  },
+  {
+    "main": "Component",
+    "sub": "SSD",
+    "brand": "Western Digital"
+  },
+  {
+    "main": "Component",
+    "sub": "SSD",
+    "brand": "Lexar"
+  },
+  {
+    "main": "Component",
+    "sub": "SSD",
+    "brand": "Transcend"
+  },
+  {
+    "main": "Component",
+    "sub": "SSD",
+    "brand": "Seagate"
+  },
+  {
+    "main": "Component",
+    "sub": "SSD",
+    "brand": "AITC"
+  },
+  {
+    "main": "Component",
+    "sub": "SSD",
+    "brand": "Netac"
+  },
+  {
+    "main": "Component",
+    "sub": "SSD",
+    "brand": "OCPC"
+  },
+  {
+    "main": "Component",
+    "sub": "SSD",
+    "brand": "OSCOO"
+  },
+  {
+    "main": "Component",
+    "sub": "SSD",
+    "brand": "Addlink"
+  },
+  {
+    "main": "Component",
+    "sub": "SSD",
+    "brand": "KingBank"
+  },
+  {
+    "main": "Component",
+    "sub": "Portable SSD",
+    "brand": "TEAM"
+  },
+  {
+    "main": "Component",
+    "sub": "Portable SSD",
+    "brand": "SanDisk"
+  },
+  {
+    "main": "Component",
+    "sub": "Portable SSD",
+    "brand": "Transcend"
+  },
+  {
+    "main": "Component",
+    "sub": "Portable SSD",
+    "brand": "Seagate"
+  },
+  {
+    "main": "Component",
+    "sub": "Portable SSD",
+    "brand": "Lexar"
+  },
+  {
+    "main": "Component",
+    "sub": "Portable SSD",
+    "brand": "Corsair"
+  },
+  {
+    "main": "Component",
+    "sub": "Portable SSD",
+    "brand": "OSCOO"
+  },
+  {
+    "main": "Component",
+    "sub": "Portable SSD",
+    "brand": "UGREEN"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing",
+    "brand": "MSI"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing",
+    "brand": "Antec"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing",
+    "brand": "Gamdias"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing",
+    "brand": "MaxGreen"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing",
+    "brand": "Corsair"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing",
+    "brand": "Asus"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing",
+    "brand": "1STPLAYER"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing",
+    "brand": "NZXT"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing",
+    "brand": "Gigabyte"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing",
+    "brand": "Xtreme"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing",
+    "brand": "DeepCool"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing",
+    "brand": "Xigmatek"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing",
+    "brand": "Value-Top"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing",
+    "brand": "Cougar"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing",
+    "brand": "PC Power"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing",
+    "brand": "Monarch"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing",
+    "brand": "Acer"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing",
+    "brand": "Carbono"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing",
+    "brand": "T-Wolf"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing",
+    "brand": "Arctic"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing Cooler",
+    "brand": "Antec"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing Cooler",
+    "brand": "Xtreme"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing Cooler",
+    "brand": "MaxGreen"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing Cooler",
+    "brand": "Gamdias"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing Cooler",
+    "brand": "1STPLAYER"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing Cooler",
+    "brand": "Corsair"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing Cooler",
+    "brand": "Fantech"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing Cooler",
+    "brand": "NZXT"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing Cooler",
+    "brand": "Cooler Master"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing Cooler",
+    "brand": "Deepcool"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing Cooler",
+    "brand": "Redragon"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing Cooler",
+    "brand": "Xigmatek"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing Cooler",
+    "brand": "ARCTIC"
+  },
+  {
+    "main": "Component",
+    "sub": "Casing Cooler",
+    "brand": "upHere"
+  },
+  {
+    "main": "Component",
+    "sub": "Optical Disk Drive",
+    "brand": null
+  },
+  {
+    "main": "Component",
+    "sub": "Vertical GPU Holder",
+    "brand": null
+  },
+  {
+    "main": "Component",
+    "sub": "Water / Liquid Cooling",
+    "brand": null
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "MSI"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "AOC"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "Asus"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "Lenovo"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "BenQ"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "LG"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "Acer"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "HP"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "Dell"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "Samsung"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "Gigabyte"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "Philips"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "Viewsonic"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "Corsair"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "ThundeRobot"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "Koorui"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "Dahua"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "PC Power"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "Hikvision"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "Eurovision"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "Walton"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "Arzopa"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "GEESUU"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "Titan Army"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "Value-Top"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "AIWA"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "Xiaomi"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "Fopo"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "Gigasonic"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "TrendSonic"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor by Brand",
+    "brand": "FeuVision"
+  },
+  {
+    "main": "Monitor",
+    "sub": "Gaming Monitor",
+    "brand": null
+  },
+  {
+    "main": "Monitor",
+    "sub": "Curved Monitor",
+    "brand": null
+  },
+  {
+    "main": "Monitor",
+    "sub": "Touch Monitor",
+    "brand": null
+  },
+  {
+    "main": "Monitor",
+    "sub": "4K Monitor",
+    "brand": null
+  },
+  {
+    "main": "Monitor",
+    "sub": "Portable Monitor",
+    "brand": null
+  },
+  {
+    "main": "Monitor",
+    "sub": "Monitor Arm",
+    "brand": null
+  },
+  {
+    "main": "Power",
+    "sub": "UPS",
+    "brand": "MaxGreen"
+  },
+  {
+    "main": "Power",
+    "sub": "UPS",
+    "brand": "Digital X"
+  },
+  {
+    "main": "Power",
+    "sub": "UPS",
+    "brand": "Prolink"
+  },
+  {
+    "main": "Power",
+    "sub": "UPS",
+    "brand": "Apollo"
+  },
+  {
+    "main": "Power",
+    "sub": "UPS",
+    "brand": "KSTAR"
+  },
+  {
+    "main": "Power",
+    "sub": "UPS",
+    "brand": "MARSRIVA"
+  },
+  {
+    "main": "Power",
+    "sub": "UPS",
+    "brand": "Power Pac"
+  },
+  {
+    "main": "Power",
+    "sub": "UPS",
+    "brand": "Power Guard"
+  },
+  {
+    "main": "Power",
+    "sub": "UPS",
+    "brand": "Must"
+  },
+  {
+    "main": "Power",
+    "sub": "UPS",
+    "brand": "KENSON"
+  },
+  {
+    "main": "Power",
+    "sub": "UPS",
+    "brand": "Dahua"
+  },
+  {
+    "main": "Power",
+    "sub": "Online UPS",
+    "brand": "MaxGreen"
+  },
+  {
+    "main": "Power",
+    "sub": "Online UPS",
+    "brand": "SANTAK"
+  },
+  {
+    "main": "Power",
+    "sub": "Online UPS",
+    "brand": "MARSRIVA"
+  },
+  {
+    "main": "Power",
+    "sub": "Online UPS",
+    "brand": "Apollo"
+  },
+  {
+    "main": "Power",
+    "sub": "Online UPS",
+    "brand": "KSTAR"
+  },
+  {
+    "main": "Power",
+    "sub": "Online UPS",
+    "brand": "Vertiv"
+  },
+  {
+    "main": "Power",
+    "sub": "Online UPS",
+    "brand": "Power Pac"
+  },
+  {
+    "main": "Power",
+    "sub": "Online UPS",
+    "brand": "EnSmart"
+  },
+  {
+    "main": "Power",
+    "sub": "Online UPS",
+    "brand": "APC"
+  },
+  {
+    "main": "Power",
+    "sub": "Online UPS",
+    "brand": "Zigor"
+  },
+  {
+    "main": "Power",
+    "sub": "Online UPS",
+    "brand": "Power Guard"
+  },
+  {
+    "main": "Power",
+    "sub": "Online UPS",
+    "brand": "Kehua"
+  },
+  {
+    "main": "Power",
+    "sub": "Online UPS",
+    "brand": "Must"
+  },
+  {
+    "main": "Power",
+    "sub": "Mini UPS",
+    "brand": "MaxGreen"
+  },
+  {
+    "main": "Power",
+    "sub": "Mini UPS",
+    "brand": "PC Power"
+  },
+  {
+    "main": "Power",
+    "sub": "Mini UPS",
+    "brand": "MARSRIVA"
+  },
+  {
+    "main": "Power",
+    "sub": "Mini UPS",
+    "brand": "WGP"
+  },
+  {
+    "main": "Power",
+    "sub": "Portable Power Station",
+    "brand": "Anker"
+  },
+  {
+    "main": "Power",
+    "sub": "Portable Power Station",
+    "brand": "EcoFlow"
+  },
+  {
+    "main": "Power",
+    "sub": "Portable Power Station",
+    "brand": "Marsriva"
+  },
+  {
+    "main": "Power",
+    "sub": "Portable Power Station",
+    "brand": "Hithium"
+  },
+  {
+    "main": "Power",
+    "sub": "Portable Power Station",
+    "brand": "Bluetti"
+  },
+  {
+    "main": "Power",
+    "sub": "Portable Power Station",
+    "brand": "EcoSONIC"
+  },
+  {
+    "main": "Power",
+    "sub": "IPS",
+    "brand": null
+  },
+  {
+    "main": "Power",
+    "sub": "UPS Battery",
+    "brand": null
+  },
+  {
+    "main": "Power",
+    "sub": "Voltage Stabilizer",
+    "brand": null
+  },
+  {
+    "main": "Power",
+    "sub": "Inverter",
+    "brand": null
+  },
+  {
+    "main": "Power",
+    "sub": "Solar Panel",
+    "brand": null
+  },
+  {
+    "main": "Power",
+    "sub": "Load Calculator (tool)",
+    "brand": null
+  },
+  {
+    "main": "Phone",
+    "sub": "Feature Phone",
+    "brand": "Nokia"
+  },
+  {
+    "main": "Phone",
+    "sub": "Feature Phone",
+    "brand": "Symphony"
+  },
+  {
+    "main": "Phone",
+    "sub": "Feature Phone",
+    "brand": "Motorola"
+  },
+  {
+    "main": "Phone",
+    "sub": "Feature Phone",
+    "brand": "HMD"
+  },
+  {
+    "main": "Phone",
+    "sub": "Feature Phone",
+    "brand": "TCL"
+  },
+  {
+    "main": "Phone",
+    "sub": "Feature Phone",
+    "brand": "XTRA"
+  },
+  {
+    "main": "Phone",
+    "sub": "iPhone",
+    "brand": null
+  },
+  {
+    "main": "Phone",
+    "sub": "Samsung",
+    "brand": null
+  },
+  {
+    "main": "Phone",
+    "sub": "Google",
+    "brand": null
+  },
+  {
+    "main": "Phone",
+    "sub": "Redmi",
+    "brand": null
+  },
+  {
+    "main": "Phone",
+    "sub": "Realme",
+    "brand": null
+  },
+  {
+    "main": "Phone",
+    "sub": "Vivo",
+    "brand": null
+  },
+  {
+    "main": "Phone",
+    "sub": "OPPO",
+    "brand": null
+  },
+  {
+    "main": "Phone",
+    "sub": "HONOR",
+    "brand": null
+  },
+  {
+    "main": "Phone",
+    "sub": "HUAWEI",
+    "brand": null
+  },
+  {
+    "main": "Phone",
+    "sub": "OnePlus",
+    "brand": null
+  },
+  {
+    "main": "Phone",
+    "sub": "TECNO",
+    "brand": null
+  },
+  {
+    "main": "Phone",
+    "sub": "Infinix",
+    "brand": null
+  },
+  {
+    "main": "Phone",
+    "sub": "Helio",
+    "brand": null
+  },
+  {
+    "main": "Phone",
+    "sub": "ZTE",
+    "brand": null
+  },
+  {
+    "main": "Phone",
+    "sub": "HTC",
+    "brand": null
+  },
+  {
+    "main": "Phone",
+    "sub": "Mobile Accessories",
+    "brand": "Charger Adapter"
+  },
+  {
+    "main": "Phone",
+    "sub": "Mobile Accessories",
+    "brand": "Car Charger"
+  },
+  {
+    "main": "Phone",
+    "sub": "Mobile Accessories",
+    "brand": "Type-C Cable"
+  },
+  {
+    "main": "Phone",
+    "sub": "Mobile Accessories",
+    "brand": "Micro USB Cable"
+  },
+  {
+    "main": "Phone",
+    "sub": "Mobile Accessories",
+    "brand": "Lightning Cable"
+  },
+  {
+    "main": "Phone",
+    "sub": "Mobile Accessories",
+    "brand": "Holder & Stand"
+  },
+  {
+    "main": "Phone",
+    "sub": "Mobile Accessories",
+    "brand": "Case & Cover"
+  },
+  {
+    "main": "Phone",
+    "sub": "Mobile Accessories",
+    "brand": "Mobile Phone Cooler"
+  },
+  {
+    "main": "Tablet",
+    "sub": "Graphics Tablet",
+    "brand": "XP-PEN"
+  },
+  {
+    "main": "Tablet",
+    "sub": "Graphics Tablet",
+    "brand": "Huion"
+  },
+  {
+    "main": "Tablet",
+    "sub": "Graphics Tablet",
+    "brand": "Wacom"
+  },
+  {
+    "main": "Tablet",
+    "sub": "Graphics Tablet",
+    "brand": "VEIKK"
+  },
+  {
+    "main": "Tablet",
+    "sub": "iPad",
+    "brand": null
+  },
+  {
+    "main": "Tablet",
+    "sub": "Lenovo",
+    "brand": null
+  },
+  {
+    "main": "Tablet",
+    "sub": "Samsung",
+    "brand": null
+  },
+  {
+    "main": "Tablet",
+    "sub": "HONOR",
+    "brand": null
+  },
+  {
+    "main": "Tablet",
+    "sub": "Xiaomi",
+    "brand": null
+  },
+  {
+    "main": "Tablet",
+    "sub": "Huion",
+    "brand": null
+  },
+  {
+    "main": "Tablet",
+    "sub": "Walton",
+    "brand": null
+  },
+  {
+    "main": "Tablet",
+    "sub": "HUAWEI",
+    "brand": null
+  },
+  {
+    "main": "Tablet",
+    "sub": "Chuwi",
+    "brand": null
+  },
+  {
+    "main": "Tablet",
+    "sub": "Amazon",
+    "brand": null
+  },
+  {
+    "main": "Tablet",
+    "sub": "Google",
+    "brand": null
+  },
+  {
+    "main": "Tablet",
+    "sub": "OnePlus",
+    "brand": null
+  },
+  {
+    "main": "Tablet",
+    "sub": "Teclast",
+    "brand": null
+  },
+  {
+    "main": "Tablet",
+    "sub": "ZTE",
+    "brand": null
+  },
+  {
+    "main": "Tablet",
+    "sub": "Infinix",
+    "brand": null
+  },
+  {
+    "main": "Tablet",
+    "sub": "reMarkable",
+    "brand": null
+  },
+  {
+    "main": "Tablet",
+    "sub": "Tecno",
+    "brand": null
+  },
+  {
+    "main": "Tablet",
+    "sub": "Stylus Pen",
+    "brand": null
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Projector",
+    "brand": "Optoma"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Projector",
+    "brand": "Acer"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Projector",
+    "brand": "BenQ"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Projector",
+    "brand": "Epson"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Projector",
+    "brand": "ViewSonic"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Projector",
+    "brand": "VIVItek"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Projector",
+    "brand": "Boxlight"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Projector",
+    "brand": "Xiaomi"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Projector",
+    "brand": "AUN"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Projector",
+    "brand": "Philips"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Projector",
+    "brand": "Anker"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Projector",
+    "brand": "Havit"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Projector",
+    "brand": "XINJI"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Projector",
+    "brand": "Blisbond"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Projector",
+    "brand": "Cheerlux"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Projector",
+    "brand": "InFocus"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Projector",
+    "brand": "Magcubic"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Projector",
+    "brand": "Projection Screen"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Projector",
+    "brand": "Projector Mount"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Conference System",
+    "brand": "Logitech"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Conference System",
+    "brand": "Jabra"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Conference System",
+    "brand": "HTDZ"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Conference System",
+    "brand": "CMX"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Conference System",
+    "brand": "EMEET"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Conference System",
+    "brand": "TEV"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Conference System",
+    "brand": "AVerMedia"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Conference System",
+    "brand": "Rapoo"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Conference System",
+    "brand": "Poly"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Conference System",
+    "brand": "BenQ"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Conference System",
+    "brand": "AVer"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Conference System",
+    "brand": "Grandstream"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Conference System",
+    "brand": "ScreenBeam"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Conference System",
+    "brand": "MAXHUB"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Conference System",
+    "brand": "Ahuja"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "PA System",
+    "brand": "TEV"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "PA System",
+    "brand": "CMX"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "PA System",
+    "brand": "Grandstream"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "PA System",
+    "brand": "JBL"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Interactive Flat Panel",
+    "brand": "InFocus"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Interactive Flat Panel",
+    "brand": "Optoma"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Interactive Flat Panel",
+    "brand": "BenQ"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Interactive Flat Panel",
+    "brand": "Hikvision"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Interactive Flat Panel",
+    "brand": "ViewSonic"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Interactive Flat Panel",
+    "brand": "LG"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Interactive Flat Panel",
+    "brand": "Dahua"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Interactive Flat Panel",
+    "brand": "BoxLight"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Interactive Flat Panel",
+    "brand": "MAXHUB"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Interactive Flat Panel",
+    "brand": "Lumevax"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Interactive Flat Panel",
+    "brand": "METZ"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Interactive Flat Panel",
+    "brand": "iBoard"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Interactive Flat Panel",
+    "brand": "Newline"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Interactive Flat Panel",
+    "brand": "Epson"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Interactive Flat Panel",
+    "brand": "ZKTeco"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Interactive Flat Panel",
+    "brand": "Horion"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Interactive Flat Panel",
+    "brand": "Hitachi"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Interactive Flat Panel",
+    "brand": "Panasonic"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Interactive Flat Panel",
+    "brand": "ARMOR"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Video Wall",
+    "brand": null
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Signage",
+    "brand": "ViewSonic"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Signage",
+    "brand": "LG"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Signage",
+    "brand": "Hikvision"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Signage",
+    "brand": "MAXHUB"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Signage",
+    "brand": "Dahua"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Kiosk",
+    "brand": "ViewSonic"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Kiosk",
+    "brand": "ARMOR"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Kiosk",
+    "brand": "Hikvision"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Kiosk",
+    "brand": "Innovtech"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Printer",
+    "brand": "HP"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Printer",
+    "brand": "Epson"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Printer",
+    "brand": "Brother"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Printer",
+    "brand": "Canon"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Printer",
+    "brand": "Pantum"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Printer",
+    "brand": "Fujifilm"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Printer",
+    "brand": "Deli"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Laser Printer",
+    "brand": null
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Large Format Printer",
+    "brand": null
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "ID Card Printer",
+    "brand": "Zebra"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "ID Card Printer",
+    "brand": "Evolis"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "ID Card Printer",
+    "brand": "HID"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "POS Printer",
+    "brand": "Deli"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "POS Printer",
+    "brand": "RONGTA"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "POS Printer",
+    "brand": "Sewoo"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "POS Printer",
+    "brand": "Epson"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "POS Printer",
+    "brand": "Xprinter"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "POS Printer",
+    "brand": "SPRT"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "POS Printer",
+    "brand": "Sunmi"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "POS Printer",
+    "brand": "Citizen"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "POS Printer",
+    "brand": "G-Printer"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "POS Printer",
+    "brand": "Tigo"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "POS Printer",
+    "brand": "Bixolon"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "POS Printer",
+    "brand": "Ciontek"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Label Printer",
+    "brand": "Deli"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Label Printer",
+    "brand": "Brother"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Label Printer",
+    "brand": "Xprinter"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Label Printer",
+    "brand": "Zebra"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Label Printer",
+    "brand": "Sewoo"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Label Printer",
+    "brand": "TSC"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Label Printer",
+    "brand": "Rongta"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Label Printer",
+    "brand": "G-Printer"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Label Printer",
+    "brand": "GoDEX"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Label Printer",
+    "brand": "Tigo"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Label Printer",
+    "brand": "Others"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Photocopier",
+    "brand": "Toshiba"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Photocopier",
+    "brand": "Canon"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Photocopier",
+    "brand": "Sharp"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Photocopier",
+    "brand": "HP"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Photocopier",
+    "brand": "Ricoh"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Toner",
+    "brand": "HP"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Toner",
+    "brand": "Pantum"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Toner",
+    "brand": "Canon"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Toner",
+    "brand": "Brother"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Toner",
+    "brand": "Fujifilm"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Toner",
+    "brand": "Toshiba"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Toner",
+    "brand": "Power Print"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Toner",
+    "brand": "True Trust"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Toner",
+    "brand": "Starink"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Toner",
+    "brand": "G&G"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Toner",
+    "brand": "Print-Rite"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Toner",
+    "brand": "Sharp"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Toner",
+    "brand": "LongPrint"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Toner",
+    "brand": "SafeWay"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Toner",
+    "brand": "Ricoh"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Toner",
+    "brand": "Samsung"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Toner",
+    "brand": "Deli"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Toner",
+    "brand": "Others"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Cartridge",
+    "brand": "Canon"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Cartridge",
+    "brand": "Epson"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Cartridge",
+    "brand": "HP"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Cartridge",
+    "brand": "Brother"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Ink Bottle",
+    "brand": "Epson"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Ink Bottle",
+    "brand": "Brother"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Ink Bottle",
+    "brand": "HP"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Ink Bottle",
+    "brand": "Canon"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Ink Bottle",
+    "brand": "Deli"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Printer Paper",
+    "brand": null
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Ribbon",
+    "brand": null
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Printer Drum",
+    "brand": null
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Scanner",
+    "brand": "HP"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Scanner",
+    "brand": "Canon"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Scanner",
+    "brand": "Epson"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Scanner",
+    "brand": "Brother"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Scanner",
+    "brand": "Fujitsu"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Scanner",
+    "brand": "Kodak"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Scanner",
+    "brand": "Avision"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Scanner",
+    "brand": "Plustek"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Barcode Scanner",
+    "brand": "Deli"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Barcode Scanner",
+    "brand": "Winson"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Barcode Scanner",
+    "brand": "Yumite"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Barcode Scanner",
+    "brand": "ZEBEX"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Barcode Scanner",
+    "brand": "Zebra"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Barcode Scanner",
+    "brand": "SEWOO"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Barcode Scanner",
+    "brand": "Honeywell"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Barcode Scanner",
+    "brand": "Sunlux"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Barcode Scanner",
+    "brand": "ZKTeco"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Cash Drawer",
+    "brand": null
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Telephone Set",
+    "brand": null
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "IP Phone",
+    "brand": "Mitel"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "IP Phone",
+    "brand": "Grandstream"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "IP Phone",
+    "brand": "Yealink"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "IP Phone",
+    "brand": "Fanvil"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "IP Phone",
+    "brand": "Cisco"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "IP Phone",
+    "brand": "Avaya"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "IP Phone",
+    "brand": "DINSTAR"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "IP Phone",
+    "brand": "Snom"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "IP Phone",
+    "brand": "Flyingvoice"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "PABX System",
+    "brand": "Mitel"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "PABX System",
+    "brand": "Grandstream"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "PABX System",
+    "brand": "DINSTAR"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "PABX System",
+    "brand": "Zycoo"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "PABX System",
+    "brand": "Panasonic"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "PABX System",
+    "brand": "Synway"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Money Counting Machine",
+    "brand": "Apollo"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Money Counting Machine",
+    "brand": "Kington"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Money Counting Machine",
+    "brand": "Domens"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Money Counting Machine",
+    "brand": "Yumite"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Money Counting Machine",
+    "brand": "Namibind"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Money Counting Machine",
+    "brand": "Safescan"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Money Counting Machine",
+    "brand": "Chihua"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Money Counting Machine",
+    "brand": "Julong"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Money Counting Machine",
+    "brand": "Maxsell"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Money Counting Machine",
+    "brand": "Tay-Chian"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Money Counting Machine",
+    "brand": "Deli"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Money Counting Machine",
+    "brand": "Henry"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Money Counting Machine",
+    "brand": "Universal"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Paper Shredder",
+    "brand": "Deli"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Paper Shredder",
+    "brand": "Ofitech"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Paper Shredder",
+    "brand": "Aurora"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Paper Shredder",
+    "brand": "Xtreme"
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Laminating Machine",
+    "brand": null
+  },
+  {
+    "main": "Office Equipment",
+    "sub": "Binding Machine",
+    "brand": null
+  },
+  {
+    "main": "Camera",
+    "sub": "Action Camera",
+    "brand": "GoPro"
+  },
+  {
+    "main": "Camera",
+    "sub": "Action Camera",
+    "brand": "DJI"
+  },
+  {
+    "main": "Camera",
+    "sub": "Action Camera",
+    "brand": "Insta360"
+  },
+  {
+    "main": "Camera",
+    "sub": "Action Camera",
+    "brand": "SJCAM"
+  },
+  {
+    "main": "Camera",
+    "sub": "Action Camera",
+    "brand": "AKASO"
+  },
+  {
+    "main": "Camera",
+    "sub": "Action Camera",
+    "brand": "AUSEK"
+  },
+  {
+    "main": "Camera",
+    "sub": "Action Camera",
+    "brand": "ORDRO"
+  },
+  {
+    "main": "Camera",
+    "sub": "Action Camera",
+    "brand": "Feiyu"
+  },
+  {
+    "main": "Camera",
+    "sub": "Action Camera",
+    "brand": "Blisbond"
+  },
+  {
+    "main": "Camera",
+    "sub": "Action Camera",
+    "brand": "ACEFAST"
+  },
+  {
+    "main": "Camera",
+    "sub": "Action Camera",
+    "brand": "Action Camera Accessories"
+  },
+  {
+    "main": "Camera",
+    "sub": "DSLR",
+    "brand": "Canon"
+  },
+  {
+    "main": "Camera",
+    "sub": "Mirrorless Camera",
+    "brand": "Canon"
+  },
+  {
+    "main": "Camera",
+    "sub": "Mirrorless Camera",
+    "brand": "Sony"
+  },
+  {
+    "main": "Camera",
+    "sub": "Mirrorless Camera",
+    "brand": "Nikon"
+  },
+  {
+    "main": "Camera",
+    "sub": "Mirrorless Camera",
+    "brand": "FUJIFILM"
+  },
+  {
+    "main": "Camera",
+    "sub": "Mirrorless Camera",
+    "brand": "Panasonic"
+  },
+  {
+    "main": "Camera",
+    "sub": "Digital Camera",
+    "brand": "Sony"
+  },
+  {
+    "main": "Camera",
+    "sub": "Digital Camera",
+    "brand": "Canon"
+  },
+  {
+    "main": "Camera",
+    "sub": "Digital Camera",
+    "brand": "Fujifilm"
+  },
+  {
+    "main": "Camera",
+    "sub": "Digital Camera",
+    "brand": "Ausek"
+  },
+  {
+    "main": "Camera",
+    "sub": "Video Camera",
+    "brand": "Sony"
+  },
+  {
+    "main": "Camera",
+    "sub": "Video Camera",
+    "brand": "Canon"
+  },
+  {
+    "main": "Camera",
+    "sub": "Video Camera",
+    "brand": "JVC"
+  },
+  {
+    "main": "Camera",
+    "sub": "Video Camera",
+    "brand": "Panasonic"
+  },
+  {
+    "main": "Camera",
+    "sub": "Handycam",
+    "brand": null
+  },
+  {
+    "main": "Camera",
+    "sub": "Dash Cam",
+    "brand": "Transcend"
+  },
+  {
+    "main": "Camera",
+    "sub": "Dash Cam",
+    "brand": "WiWU"
+  },
+  {
+    "main": "Camera",
+    "sub": "Dash Cam",
+    "brand": "70mai"
+  },
+  {
+    "main": "Camera",
+    "sub": "Dash Cam",
+    "brand": "XO"
+  },
+  {
+    "main": "Camera",
+    "sub": "Instant Camera",
+    "brand": null
+  },
+  {
+    "main": "Camera",
+    "sub": "Body Camera",
+    "brand": null
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Lenses",
+    "brand": "7Artisans"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Lenses",
+    "brand": "Canon"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Lenses",
+    "brand": "Nikon"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Lenses",
+    "brand": "Sirui"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Lenses",
+    "brand": "Sony"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Lenses",
+    "brand": "Tamron"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Lenses",
+    "brand": "FUJIFILM"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Lenses",
+    "brand": "Samyang"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Lenses",
+    "brand": "Viltrox"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Lenses",
+    "brand": "Sigma"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Tripod",
+    "brand": "Manbily"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Tripod",
+    "brand": "K&F Concept"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Tripod",
+    "brand": "Digipod"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Tripod",
+    "brand": "Yunteng"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Tripod",
+    "brand": "Kingjoy"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Tripod",
+    "brand": "Manfrotto"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Tripod",
+    "brand": "Libec"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Tripod",
+    "brand": "Jmary"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Tripod",
+    "brand": "Telesin"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Tripod",
+    "brand": "Fantech"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Accessories",
+    "brand": "Camera Flash"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Accessories",
+    "brand": "Studio Light"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Accessories",
+    "brand": "Softbox"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Accessories",
+    "brand": "Lens Filter"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Accessories",
+    "brand": "Lens Adapter"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Accessories",
+    "brand": "Battery & Charger"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Accessories",
+    "brand": "Camera Bag"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Accessories",
+    "brand": "Dry Cabinet"
+  },
+  {
+    "main": "Camera",
+    "sub": "Camera Accessories",
+    "brand": "Camera Flash Trigger"
+  },
+  {
+    "main": "Camera",
+    "sub": "Gimbal",
+    "brand": null
+  },
+  {
+    "main": "Security",
+    "sub": "Portable WiFi Camera",
+    "brand": "Meari"
+  },
+  {
+    "main": "Security",
+    "sub": "Portable WiFi Camera",
+    "brand": "Dahua"
+  },
+  {
+    "main": "Security",
+    "sub": "Portable WiFi Camera",
+    "brand": "Imou"
+  },
+  {
+    "main": "Security",
+    "sub": "Portable WiFi Camera",
+    "brand": "EZVIZ"
+  },
+  {
+    "main": "Security",
+    "sub": "Portable WiFi Camera",
+    "brand": "Jovision"
+  },
+  {
+    "main": "Security",
+    "sub": "Portable WiFi Camera",
+    "brand": "TP-Link"
+  },
+  {
+    "main": "Security",
+    "sub": "Portable WiFi Camera",
+    "brand": "Tenda"
+  },
+  {
+    "main": "Security",
+    "sub": "Portable WiFi Camera",
+    "brand": "ZKTeco"
+  },
+  {
+    "main": "Security",
+    "sub": "Portable WiFi Camera",
+    "brand": "Xiaomi"
+  },
+  {
+    "main": "Security",
+    "sub": "Portable WiFi Camera",
+    "brand": "Vimtag"
+  },
+  {
+    "main": "Security",
+    "sub": "Portable WiFi Camera",
+    "brand": "Havit"
+  },
+  {
+    "main": "Security",
+    "sub": "Portable WiFi Camera",
+    "brand": "IMILAB"
+  },
+  {
+    "main": "Security",
+    "sub": "Portable WiFi Camera",
+    "brand": "Lenovo"
+  },
+  {
+    "main": "Security",
+    "sub": "Portable WiFi Camera",
+    "brand": "Newland"
+  },
+  {
+    "main": "Security",
+    "sub": "IP Camera",
+    "brand": "Dahua"
+  },
+  {
+    "main": "Security",
+    "sub": "IP Camera",
+    "brand": "Jovision"
+  },
+  {
+    "main": "Security",
+    "sub": "IP Camera",
+    "brand": "Hikvision"
+  },
+  {
+    "main": "Security",
+    "sub": "IP Camera",
+    "brand": "Tenda"
+  },
+  {
+    "main": "Security",
+    "sub": "IP Camera",
+    "brand": "Uniview"
+  },
+  {
+    "main": "Security",
+    "sub": "IP Camera",
+    "brand": "TP-Link"
+  },
+  {
+    "main": "Security",
+    "sub": "CC Camera",
+    "brand": "Dahua"
+  },
+  {
+    "main": "Security",
+    "sub": "CC Camera",
+    "brand": "Hikvision"
+  },
+  {
+    "main": "Security",
+    "sub": "CC Camera",
+    "brand": "Uniview"
+  },
+  {
+    "main": "Security",
+    "sub": "PTZ Camera",
+    "brand": "Dahua"
+  },
+  {
+    "main": "Security",
+    "sub": "PTZ Camera",
+    "brand": "Hikvision"
+  },
+  {
+    "main": "Security",
+    "sub": "PTZ Camera",
+    "brand": "Jovision"
+  },
+  {
+    "main": "Security",
+    "sub": "PTZ Camera",
+    "brand": "Uniview"
+  },
+  {
+    "main": "Security",
+    "sub": "PTZ Camera",
+    "brand": "TP-Link"
+  },
+  {
+    "main": "Security",
+    "sub": "PTZ Camera",
+    "brand": "Tiandy"
+  },
+  {
+    "main": "Security",
+    "sub": "Solar Camera",
+    "brand": null
+  },
+  {
+    "main": "Security",
+    "sub": "CC Camera Package",
+    "brand": "Hikvision"
+  },
+  {
+    "main": "Security",
+    "sub": "CC Camera Package",
+    "brand": "Dahua"
+  },
+  {
+    "main": "Security",
+    "sub": "IP Camera Package",
+    "brand": "Hikvision"
+  },
+  {
+    "main": "Security",
+    "sub": "IP Camera Package",
+    "brand": "Dahua"
+  },
+  {
+    "main": "Security",
+    "sub": "IP Camera Package",
+    "brand": "TP-Link"
+  },
+  {
+    "main": "Security",
+    "sub": "DVR",
+    "brand": "Hikvision"
+  },
+  {
+    "main": "Security",
+    "sub": "DVR",
+    "brand": "Jovision"
+  },
+  {
+    "main": "Security",
+    "sub": "NVR",
+    "brand": "Dahua"
+  },
+  {
+    "main": "Security",
+    "sub": "NVR",
+    "brand": "Hikvision"
+  },
+  {
+    "main": "Security",
+    "sub": "NVR",
+    "brand": "Jovision"
+  },
+  {
+    "main": "Security",
+    "sub": "NVR",
+    "brand": "Uniview"
+  },
+  {
+    "main": "Security",
+    "sub": "NVR",
+    "brand": "Tenda"
+  },
+  {
+    "main": "Security",
+    "sub": "NVR",
+    "brand": "TP-Link"
+  },
+  {
+    "main": "Security",
+    "sub": "NVR",
+    "brand": "EZVIZ"
+  },
+  {
+    "main": "Security",
+    "sub": "NVR",
+    "brand": "Tiandy"
+  },
+  {
+    "main": "Security",
+    "sub": "NVR",
+    "brand": "Imou"
+  },
+  {
+    "main": "Security",
+    "sub": "XVR",
+    "brand": "Dahua"
+  },
+  {
+    "main": "Security",
+    "sub": "XVR",
+    "brand": "Uniview"
+  },
+  {
+    "main": "Security",
+    "sub": "XVR",
+    "brand": "Jovision"
+  },
+  {
+    "main": "Security",
+    "sub": "CC Camera Accessories",
+    "brand": null
+  },
+  {
+    "main": "Security",
+    "sub": "Door Lock",
+    "brand": "ZKTeco"
+  },
+  {
+    "main": "Security",
+    "sub": "Door Lock",
+    "brand": "STATA"
+  },
+  {
+    "main": "Security",
+    "sub": "Door Lock",
+    "brand": "SmartX"
+  },
+  {
+    "main": "Security",
+    "sub": "Door Lock",
+    "brand": "SmartLife"
+  },
+  {
+    "main": "Security",
+    "sub": "Door Lock",
+    "brand": "Nexakey"
+  },
+  {
+    "main": "Security",
+    "sub": "Door Lock",
+    "brand": "Ovalin"
+  },
+  {
+    "main": "Security",
+    "sub": "Door Lock",
+    "brand": "NGTeco"
+  },
+  {
+    "main": "Security",
+    "sub": "Smart Door Bell",
+    "brand": null
+  },
+  {
+    "main": "Security",
+    "sub": "Access Control",
+    "brand": "ZKTeco"
+  },
+  {
+    "main": "Security",
+    "sub": "Access Control",
+    "brand": "Hikvision"
+  },
+  {
+    "main": "Security",
+    "sub": "Access Control",
+    "brand": "Onspot"
+  },
+  {
+    "main": "Security",
+    "sub": "Access Control",
+    "brand": "NexaKey"
+  },
+  {
+    "main": "Security",
+    "sub": "Access Control",
+    "brand": "Tipsoi"
+  },
+  {
+    "main": "Security",
+    "sub": "Access Control",
+    "brand": "Access Control Accessories"
+  },
+  {
+    "main": "Security",
+    "sub": "Entrance Control",
+    "brand": null
+  },
+  {
+    "main": "Security",
+    "sub": "Digital Locker & Vault",
+    "brand": null
+  },
+  {
+    "main": "Security",
+    "sub": "KVM Switch",
+    "brand": null
+  },
+  {
+    "main": "Networking",
+    "sub": "Starlink",
+    "brand": null
+  },
+  {
+    "main": "Networking",
+    "sub": "Router",
+    "brand": "TP-Link"
+  },
+  {
+    "main": "Networking",
+    "sub": "Router",
+    "brand": "Tenda"
+  },
+  {
+    "main": "Networking",
+    "sub": "Router",
+    "brand": "Cudy"
+  },
+  {
+    "main": "Networking",
+    "sub": "Router",
+    "brand": "Mikrotik"
+  },
+  {
+    "main": "Networking",
+    "sub": "Router",
+    "brand": "D-Link"
+  },
+  {
+    "main": "Networking",
+    "sub": "Router",
+    "brand": "Ruijie"
+  },
+  {
+    "main": "Networking",
+    "sub": "Router",
+    "brand": "ASUS"
+  },
+  {
+    "main": "Networking",
+    "sub": "Router",
+    "brand": "Mercusys"
+  },
+  {
+    "main": "Networking",
+    "sub": "Router",
+    "brand": "Zyxel"
+  },
+  {
+    "main": "Networking",
+    "sub": "Router",
+    "brand": "TOTOLINK"
+  },
+  {
+    "main": "Networking",
+    "sub": "Router",
+    "brand": "BDCOM"
+  },
+  {
+    "main": "Networking",
+    "sub": "Router",
+    "brand": "PROLINK"
+  },
+  {
+    "main": "Networking",
+    "sub": "Router",
+    "brand": "Grandstream"
+  },
+  {
+    "main": "Networking",
+    "sub": "Router",
+    "brand": "Cisco"
+  },
+  {
+    "main": "Networking",
+    "sub": "Router",
+    "brand": "Dahua"
+  },
+  {
+    "main": "Networking",
+    "sub": "Router",
+    "brand": "Hikvision"
+  },
+  {
+    "main": "Networking",
+    "sub": "Router",
+    "brand": "Netis"
+  },
+  {
+    "main": "Networking",
+    "sub": "Router",
+    "brand": "RobiWifi"
+  },
+  {
+    "main": "Networking",
+    "sub": "Router",
+    "brand": "VSOL"
+  },
+  {
+    "main": "Networking",
+    "sub": "Pocket Router",
+    "brand": "TP-Link"
+  },
+  {
+    "main": "Networking",
+    "sub": "Pocket Router",
+    "brand": "Mercusys"
+  },
+  {
+    "main": "Networking",
+    "sub": "Pocket Router",
+    "brand": "VEMO"
+  },
+  {
+    "main": "Networking",
+    "sub": "Pocket Router",
+    "brand": "OLAX"
+  },
+  {
+    "main": "Networking",
+    "sub": "WiFi Range Extender",
+    "brand": "Tenda"
+  },
+  {
+    "main": "Networking",
+    "sub": "WiFi Range Extender",
+    "brand": "TP-Link"
+  },
+  {
+    "main": "Networking",
+    "sub": "WiFi Range Extender",
+    "brand": "D-Link"
+  },
+  {
+    "main": "Networking",
+    "sub": "WiFi Range Extender",
+    "brand": "Cudy"
+  },
+  {
+    "main": "Networking",
+    "sub": "WiFi Range Extender",
+    "brand": "XIAOMI"
+  },
+  {
+    "main": "Networking",
+    "sub": "WiFi Range Extender",
+    "brand": "Mercusys"
+  },
+  {
+    "main": "Networking",
+    "sub": "Access Point",
+    "brand": "TP-Link"
+  },
+  {
+    "main": "Networking",
+    "sub": "Access Point",
+    "brand": "Zyxel"
+  },
+  {
+    "main": "Networking",
+    "sub": "Access Point",
+    "brand": "Tenda"
+  },
+  {
+    "main": "Networking",
+    "sub": "Access Point",
+    "brand": "TOTOLINK"
+  },
+  {
+    "main": "Networking",
+    "sub": "Access Point",
+    "brand": "NETGEAR"
+  },
+  {
+    "main": "Networking",
+    "sub": "Access Point",
+    "brand": "MikroTik"
+  },
+  {
+    "main": "Networking",
+    "sub": "Access Point",
+    "brand": "Grandstream"
+  },
+  {
+    "main": "Networking",
+    "sub": "Access Point",
+    "brand": "Ubiquiti"
+  },
+  {
+    "main": "Networking",
+    "sub": "Access Point",
+    "brand": "Cambium"
+  },
+  {
+    "main": "Networking",
+    "sub": "Access Point",
+    "brand": "Cudy"
+  },
+  {
+    "main": "Networking",
+    "sub": "Access Point",
+    "brand": "Edgecore"
+  },
+  {
+    "main": "Networking",
+    "sub": "Access Point",
+    "brand": "Ruijie"
+  },
+  {
+    "main": "Networking",
+    "sub": "Access Point",
+    "brand": "TRENDnet"
+  },
+  {
+    "main": "Networking",
+    "sub": "Access Point",
+    "brand": "IP-COM"
+  },
+  {
+    "main": "Networking",
+    "sub": "Access Point",
+    "brand": "Huawei"
+  },
+  {
+    "main": "Networking",
+    "sub": "Access Point",
+    "brand": "BDCOM"
+  },
+  {
+    "main": "Networking",
+    "sub": "Access Point",
+    "brand": "Cisco"
+  },
+  {
+    "main": "Networking",
+    "sub": "WiFi Adapter",
+    "brand": "TP-Link"
+  },
+  {
+    "main": "Networking",
+    "sub": "WiFi Adapter",
+    "brand": "Tenda"
+  },
+  {
+    "main": "Networking",
+    "sub": "WiFi Adapter",
+    "brand": "Cudy"
+  },
+  {
+    "main": "Networking",
+    "sub": "WiFi Adapter",
+    "brand": "Vention"
+  },
+  {
+    "main": "Networking",
+    "sub": "WiFi Adapter",
+    "brand": "Mercusys"
+  },
+  {
+    "main": "Networking",
+    "sub": "WiFi Adapter",
+    "brand": "TRENDnet"
+  },
+  {
+    "main": "Networking",
+    "sub": "WiFi Adapter",
+    "brand": "Yuanxin"
+  },
+  {
+    "main": "Networking",
+    "sub": "WiFi Adapter",
+    "brand": "D-Link"
+  },
+  {
+    "main": "Networking",
+    "sub": "WiFi Adapter",
+    "brand": "UGREEN"
+  },
+  {
+    "main": "Networking",
+    "sub": "WiFi Adapter",
+    "brand": "Dtech"
+  },
+  {
+    "main": "Networking",
+    "sub": "WiFi Adapter",
+    "brand": "Xtreme"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "Zyxel"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "Cisco"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "MikroTik"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "TP-Link"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "Tenda"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "Cudy"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "Ruijie"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "BDCOM"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "NETGEAR"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "D-Link"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "HikVision"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "Netis"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "TOTOLINK"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "Solitine"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "TRENDnet"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "C-Data"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "Grandstream"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "Huawei"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "Levelone"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "IP-COM"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "VSOL"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "Genata"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "Gigalink"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Switch",
+    "brand": "Nexakey"
+  },
+  {
+    "main": "Networking",
+    "sub": "Firewall",
+    "brand": null
+  },
+  {
+    "main": "Networking",
+    "sub": "ONU",
+    "brand": null
+  },
+  {
+    "main": "Networking",
+    "sub": "OLT",
+    "brand": null
+  },
+  {
+    "main": "Networking",
+    "sub": "Media Converter",
+    "brand": "D-Link"
+  },
+  {
+    "main": "Networking",
+    "sub": "Media Converter",
+    "brand": "TP-Link"
+  },
+  {
+    "main": "Networking",
+    "sub": "Media Converter",
+    "brand": "Cote"
+  },
+  {
+    "main": "Networking",
+    "sub": "Network Transceivers",
+    "brand": null
+  },
+  {
+    "main": "Networking",
+    "sub": "Networking Cable",
+    "brand": "UTP Cable"
+  },
+  {
+    "main": "Networking",
+    "sub": "Networking Cable",
+    "brand": "Fiber Optic Cable"
+  },
+  {
+    "main": "Networking",
+    "sub": "Patch Cord",
+    "brand": null
+  },
+  {
+    "main": "Networking",
+    "sub": "Connector",
+    "brand": null
+  },
+  {
+    "main": "Networking",
+    "sub": "Modular Jack",
+    "brand": null
+  },
+  {
+    "main": "Networking",
+    "sub": "Faceplate",
+    "brand": null
+  },
+  {
+    "main": "Networking",
+    "sub": "Patch Panel",
+    "brand": null
+  },
+  {
+    "main": "Networking",
+    "sub": "LAN Card",
+    "brand": null
+  },
+  {
+    "main": "Networking",
+    "sub": "PoE Injector",
+    "brand": null
+  },
+  {
+    "main": "Networking",
+    "sub": "Crimping Tool",
+    "brand": null
+  },
+  {
+    "main": "Networking",
+    "sub": "Splicer Machine",
+    "brand": null
+  },
+  {
+    "main": "Networking",
+    "sub": "Cable Tester",
+    "brand": null
+  },
+  {
+    "main": "Software",
+    "sub": "Operating System",
+    "brand": "Microsoft Windows"
+  },
+  {
+    "main": "Software",
+    "sub": "Operating System",
+    "brand": "Red Hat"
+  },
+  {
+    "main": "Software",
+    "sub": "Office Application",
+    "brand": "Microsoft Office"
+  },
+  {
+    "main": "Software",
+    "sub": "Database Server Solution",
+    "brand": null
+  },
+  {
+    "main": "Software",
+    "sub": "Mail Server Solution",
+    "brand": null
+  },
+  {
+    "main": "Software",
+    "sub": "Cloud Solutions",
+    "brand": null
+  },
+  {
+    "main": "Software",
+    "sub": "Antivirus",
+    "brand": "For Home User"
+  },
+  {
+    "main": "Software",
+    "sub": "Antivirus",
+    "brand": "For Business Users"
+  },
+  {
+    "main": "Software",
+    "sub": "Bangla Typing Software",
+    "brand": "Bijoy"
+  },
+  {
+    "main": "Software",
+    "sub": "Adobe",
+    "brand": null
+  },
+  {
+    "main": "Software",
+    "sub": "VMware",
+    "brand": null
+  },
+  {
+    "main": "Software",
+    "sub": "AutoDesk",
+    "brand": null
+  },
+  {
+    "main": "Software",
+    "sub": "AnyDesk",
+    "brand": null
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Server",
+    "brand": "Dell"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Server",
+    "brand": "HPE"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Server",
+    "brand": "Cisco"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Server",
+    "brand": "ASUS"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "GPU Server",
+    "brand": null
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Server Rack",
+    "brand": "Toten"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Server Rack",
+    "brand": "Safenet"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Server Rack",
+    "brand": "Cote"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Server Rack",
+    "brand": "DateUP"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Server Rack",
+    "brand": "Nexakey"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Server Rack",
+    "brand": "Solitine"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Workstation",
+    "brand": "HP"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Workstation",
+    "brand": "Dell"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Workstation",
+    "brand": "Lenovo"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Workstation",
+    "brand": "MSI"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Workstation",
+    "brand": "NVIDIA"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Workstation",
+    "brand": "AMD"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "NAS Storage",
+    "brand": "Asustor"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "NAS Storage",
+    "brand": "Synology"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "NAS Storage",
+    "brand": "Orico"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "NAS Storage",
+    "brand": "QNAP"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "SAN Storage",
+    "brand": "DELL"
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "DAS Storage",
+    "brand": null
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Server HDD",
+    "brand": null
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Server HDD Bay",
+    "brand": null
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Server RAM",
+    "brand": null
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Server SSD",
+    "brand": null
+  },
+  {
+    "main": "Server & Storage",
+    "sub": "Server Power Supply",
+    "brand": null
+  },
+  {
+    "main": "Accessories",
+    "sub": "Watch",
+    "brand": null
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "Logitech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "Xtrike Me"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "GAMDIAS"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "Fantech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "Asus"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "Corsair"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "A4Tech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "SteelSeries"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "Durgod"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "Havit"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "Rapoo"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "T-WOLF"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "Onikuma"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "AULA"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "iMICE"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "ROYAL KLUDGE"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "AJAZZ"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "Keychron"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "Dareu"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "Redragon"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "Microsoft"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "NZXT"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "PC Power"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "Jedel"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "MCHOSE"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "Furycube"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "Magegee"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Keyboard",
+    "brand": "XO"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "Logitech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "Xtrike Me"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "Asus"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "Corsair"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "A4Tech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "SteelSeries"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "Fantech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "Havit"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "iMICE"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "Rapoo"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "Durgod"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "T-WOLF"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "Onikuma"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "AULA"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "ThundeRobot"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "GAMDIAS"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "Apple"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "Redragon"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "MSI"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "AJAZZ"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "PC Power"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "Hoco"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "MCHOSE"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "Furycube"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "Inphic"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse",
+    "brand": "XO"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Logitech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Xtrike Me"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Sony"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Asus"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Corsair"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "A4Tech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "SteelSeries"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Fantech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Havit"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Edifier"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Rapoo"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "iMICE"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Onikuma"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Inbertec"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "JBL"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "MSI"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "EKSA"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Apple"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Jabra"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "RODE"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "MeeTion"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Redragon"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Microlab"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Anker"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Audio Technica"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Beyerdynamic"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "UGREEN"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "AKG"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Awei"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Tribit"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Hoco"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Fastrack"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "PC Power"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "OneOdio"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Acefast"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "Weofly"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone",
+    "brand": "AJAZZ"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Headphone",
+    "brand": null
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse Pad",
+    "brand": "RAZER"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse Pad",
+    "brand": "Xtrike Me"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse Pad",
+    "brand": "Asus"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse Pad",
+    "brand": "Fantech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse Pad",
+    "brand": "Havit"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse Pad",
+    "brand": "Logitech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse Pad",
+    "brand": "SteelSeries"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse Pad",
+    "brand": "MSI"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse Pad",
+    "brand": "MeeTion"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse Pad",
+    "brand": "X-Raypad"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse Pad",
+    "brand": "Elgato"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse Pad",
+    "brand": "Onikuma"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse Pad",
+    "brand": "A4Tech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse Pad",
+    "brand": "Inphic"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse Pad",
+    "brand": "AJAZZ"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Mouse Pad",
+    "brand": "ThundeRobot"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Wrist Rest",
+    "brand": null
+  },
+  {
+    "main": "Accessories",
+    "sub": "Headphone Stand",
+    "brand": null
+  },
+  {
+    "main": "Accessories",
+    "sub": "Speaker & Home Theater",
+    "brand": "JBL"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Speaker & Home Theater",
+    "brand": "Bose"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Speaker & Home Theater",
+    "brand": "Sony"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Speaker & Home Theater",
+    "brand": "Samsung"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Speaker & Home Theater",
+    "brand": "Xtrike Me"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Speaker & Home Theater",
+    "brand": "Edifier"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Speaker & Home Theater",
+    "brand": "Logitech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Speaker & Home Theater",
+    "brand": "F&D"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Speaker & Home Theater",
+    "brand": "Microlab"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Speaker & Home Theater",
+    "brand": "Havit"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Speaker & Home Theater",
+    "brand": "Fantech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Speaker & Home Theater",
+    "brand": "Xtreme"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Speaker & Home Theater",
+    "brand": "T-WOLF"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Speaker & Home Theater",
+    "brand": "AULA"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Speaker & Home Theater",
+    "brand": "Rapoo"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Speaker & Home Theater",
+    "brand": "Awei"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Speaker & Home Theater",
+    "brand": "Thonet & Vander"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Speaker & Home Theater",
+    "brand": "Onikuma"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Speaker & Home Theater",
+    "brand": "Solitine"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "Awei"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "Baseus"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "EarFun"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "Fantech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "Oraimo"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "HiFuture"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "Hoco"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "JBL"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "Havit"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "JOYROOM"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "Marshall"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "Thunderobot"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "Logitech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "Edifier"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "F&D"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "HONOR"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "RECCI"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "Sony"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "Tribit"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "LDNIO"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "Yison"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "Ikarao"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "SteelSeries"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "Thonet & Vander"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "QCY"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "Onikuma"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "BWOO"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "TOZO"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "Monster"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "Weofly"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "Jiayou"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Speakers",
+    "brand": "Unikyy"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Soundbar",
+    "brand": null
+  },
+  {
+    "main": "Accessories",
+    "sub": "Webcam",
+    "brand": "A4TECH"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Webcam",
+    "brand": "Logitech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Webcam",
+    "brand": "Asus"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Webcam",
+    "brand": "Havit"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Webcam",
+    "brand": "Fantech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Webcam",
+    "brand": "AVerMedia"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Webcam",
+    "brand": "EMEET"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Webcam",
+    "brand": "Redragon"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Webcam",
+    "brand": "Rapoo"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Webcam",
+    "brand": "Magpie"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Webcam",
+    "brand": "Verbatim"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Cable",
+    "brand": "Micro USB Cable"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Cable",
+    "brand": "USB Cable"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Cable",
+    "brand": "Type-C Cable"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Cable",
+    "brand": "Audio Cable"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Cable",
+    "brand": "HDMI Cable"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Cable",
+    "brand": "VGA Cable"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Cable",
+    "brand": "DisplayPort Cable"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Cable",
+    "brand": "Lightning Cable"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Cable",
+    "brand": "Printer Cable"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Cable",
+    "brand": "Cable Organizer"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Converter",
+    "brand": "USB Converter"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Converter",
+    "brand": "Audio Converter"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Converter",
+    "brand": "Type-C Converter"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Converter",
+    "brand": "HDMI Converter"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Converter",
+    "brand": "VGA Converter"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Converter",
+    "brand": "DisplayPort Converter"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Converter",
+    "brand": "DVI Converter"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Card Reader",
+    "brand": null
+  },
+  {
+    "main": "Accessories",
+    "sub": "Hubs & Docks",
+    "brand": null
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "Maono"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "BOYA"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "Fantech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "Audio Technica"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "RODE"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "Elgato"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "Sennheiser"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "AVerMedia"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "Havit"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "Hollyland"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "Logitech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "Yanmai"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "K&F Concept"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "AKG"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "Redragon"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "SYNCO"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "Saramonic"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "MIRFAK"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "Rapoo"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "Neumann"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "FIFINE"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "DJI"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "Asus"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "Hoco"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "Ulanzi"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "A4Tech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "SteelSeries"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "Onikuma"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "MeeTion"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "BWOO"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Microphone",
+    "brand": "Acefast"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Digital Voice Recorder",
+    "brand": "Sony"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Digital Voice Recorder",
+    "brand": "ZOOM"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Digital Voice Recorder",
+    "brand": "Boya"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Digital Voice Recorder",
+    "brand": "Philips"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Presenter",
+    "brand": "Logitech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Presenter",
+    "brand": "Inphic"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Presenter",
+    "brand": "Rapoo"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Presenter",
+    "brand": "Micropack"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Presenter",
+    "brand": "Baseus"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Presenter",
+    "brand": "XO"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Memory Card",
+    "brand": "Jovision"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Memory Card",
+    "brand": "PNY"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Memory Card",
+    "brand": "SanDisk"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Memory Card",
+    "brand": "Transcend"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Memory Card",
+    "brand": "Apacer"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Memory Card",
+    "brand": "Lexar"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Memory Card",
+    "brand": "Adata"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Memory Card",
+    "brand": "Sony"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Memory Card",
+    "brand": "TwinMOS"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Memory Card",
+    "brand": "Nikon"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Memory Card",
+    "brand": "Dahua"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Memory Card",
+    "brand": "Smart"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Memory Card",
+    "brand": "Kingston"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Capture Card",
+    "brand": "AVerMedia"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Capture Card",
+    "brand": "UGREEN"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Capture Card",
+    "brand": "Elgato"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Capture Card",
+    "brand": "Onten"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Pen Drive",
+    "brand": "TEAM"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Pen Drive",
+    "brand": "Transcend"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Pen Drive",
+    "brand": "TWINMOS"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Pen Drive",
+    "brand": "ADATA"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Pen Drive",
+    "brand": "SanDisk"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Pen Drive",
+    "brand": "Kingston"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Pen Drive",
+    "brand": "Apacer"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Pen Drive",
+    "brand": "Lexar"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Pen Drive",
+    "brand": "Dahua"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Pen Drive",
+    "brand": "Netac"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Pen Drive",
+    "brand": "Smart"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Pen Drive",
+    "brand": "Hiksemi"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Pen Drive",
+    "brand": "OSCOO"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Thermal Paste",
+    "brand": null
+  },
+  {
+    "main": "Accessories",
+    "sub": "HDD-SSD Enclosure",
+    "brand": "Orico"
+  },
+  {
+    "main": "Accessories",
+    "sub": "HDD-SSD Enclosure",
+    "brand": "UGREEN"
+  },
+  {
+    "main": "Accessories",
+    "sub": "HDD-SSD Enclosure",
+    "brand": "Yuanxin"
+  },
+  {
+    "main": "Accessories",
+    "sub": "HDD-SSD Enclosure",
+    "brand": "Patriot"
+  },
+  {
+    "main": "Accessories",
+    "sub": "HDD-SSD Enclosure",
+    "brand": "OSCOO"
+  },
+  {
+    "main": "Accessories",
+    "sub": "HDD-SSD Enclosure",
+    "brand": "OCPC"
+  },
+  {
+    "main": "Accessories",
+    "sub": "HDD-SSD Enclosure",
+    "brand": "Jeyi"
+  },
+  {
+    "main": "Accessories",
+    "sub": "HDD-SSD Enclosure",
+    "brand": "Onten"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Power Strip",
+    "brand": "Deli"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Power Strip",
+    "brand": "Huntkey"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Power Strip",
+    "brand": "Belkin"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Power Strip",
+    "brand": "Baseus"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Power Strip",
+    "brand": "Aptech"
+  },
+  {
+    "main": "Accessories",
+    "sub": "Bluetooth Adapter",
+    "brand": null
+  },
+  {
+    "main": "Accessories",
+    "sub": "Monitor Light Bar",
+    "brand": null
+  },
+  {
+    "main": "Gadget",
+    "sub": "Daily Lifestyle",
+    "brand": "Blood Pressure Monitor"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Daily Lifestyle",
+    "brand": "Weight Scale"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Daily Lifestyle",
+    "brand": "Hair Dryer"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Daily Lifestyle",
+    "brand": "Hair Straightener"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Daily Lifestyle",
+    "brand": "Electric Toothbrush"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Daily Lifestyle",
+    "brand": "GPS Tracker"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Daily Lifestyle",
+    "brand": "Mosquito Bat"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Daily Lifestyle",
+    "brand": "Torch Light"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Daily Lifestyle",
+    "brand": "Table Lamp"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Daily Lifestyle",
+    "brand": "Massage Gun"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "Amazfit"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "Apple"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "Black Shark"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "boAt"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "COLMI"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "DIZO"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "Google"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "Havit"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "Haylou"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "HiFuture"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "HUAWEI"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "IMILAB"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "Kieslect"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "KOSPET"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "OnePlus"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "Oraimo"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "QCY"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "Realme"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "RIVERSONG"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "Samsung"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "Titan"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "WiWU"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "Xiaomi"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "XTRA"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "Yison"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "Zeblaze"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "Remax"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "Joyroom"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "Awei"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "MOVR"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "Tecno"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "BWOO"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "CHARG"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "Unikyy"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Watch",
+    "brand": "XO"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Band",
+    "brand": null
+  },
+  {
+    "main": "Gadget",
+    "sub": "Analog Watch",
+    "brand": null
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earphone",
+    "brand": "Acefast"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earphone",
+    "brand": "Baseus"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earphone",
+    "brand": "BLON"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earphone",
+    "brand": "CHARG"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earphone",
+    "brand": "Edifier"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earphone",
+    "brand": "FONENG"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earphone",
+    "brand": "JBL"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earphone",
+    "brand": "JOYROOM"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earphone",
+    "brand": "KZ"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earphone",
+    "brand": "Oraimo"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earphone",
+    "brand": "RECCI"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earphone",
+    "brand": "RIVERSONG"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earphone",
+    "brand": "SteelSeries"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earphone",
+    "brand": "Thonet & Vander"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earphone",
+    "brand": "Xiaomi"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earphone",
+    "brand": "Yison"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earphone",
+    "brand": "OnePlus"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earphone",
+    "brand": "Jiayou"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earphone",
+    "brand": "WiWU"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Anker"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Apple"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "CHARG"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "BWOO"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Awei"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Baseus"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "EMEET"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "EarFun"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Edifier"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Fantech"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "FONENG"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Havit"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Haylou"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "HiFuture"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Hoco"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "IMILAB"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Jabra"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "JBL"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "JOYROOM"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Mibro"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "OnePlus"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Oraimo"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "QCY"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Realme"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "RECCI"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "RIVERSONG"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Samsung"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Sony"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "SoundPEATS"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "UGREEN"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Vyvylabs"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "WiWU"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "XINJI"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Yison"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Choetech"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "cmf"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "SteelSeries"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Onikuma"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Tecno"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Vention"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "TOZO"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Monster"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Weofly"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Jiayou"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Onten"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "Unikyy"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Earbuds",
+    "brand": "XO"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "CHARG"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "DIZO"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "Awei"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "Havit"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "HiFuture"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "Hoco"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "OnePlus"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "Oraimo"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "Realme"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "RIVERSONG"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "Wavefun"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "Yison"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "QCY"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "FONENG"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "cmf"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "Thonet & Vander"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "Acefast"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "Microlab"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "TOZO"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "Onikuma"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Neckband",
+    "brand": "Unikyy"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Trimmer",
+    "brand": "Panasonic"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Trimmer",
+    "brand": "Philips"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Trimmer",
+    "brand": "DIZO"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Trimmer",
+    "brand": "Kemei"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Trimmer",
+    "brand": "ENCHEN"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Trimmer",
+    "brand": "VGR"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Trimmer",
+    "brand": "Xiaomi"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Trimmer",
+    "brand": "Oraimo"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Trimmer",
+    "brand": "HTC"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Trimmer",
+    "brand": "Hoco"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Ring",
+    "brand": null
+  },
+  {
+    "main": "Gadget",
+    "sub": "Smart Glasses",
+    "brand": null
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Bank",
+    "brand": "Anker"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Bank",
+    "brand": "Awei"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Bank",
+    "brand": "Baseus"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Bank",
+    "brand": "Hoco"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Bank",
+    "brand": "JOYROOM"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Bank",
+    "brand": "Oraimo"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Bank",
+    "brand": "RECCI"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Bank",
+    "brand": "UGREEN"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Bank",
+    "brand": "WiWU"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Bank",
+    "brand": "Yison"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Bank",
+    "brand": "Vention"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Bank",
+    "brand": "Fantech"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Bank",
+    "brand": "FONENG"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Bank",
+    "brand": "BWOO"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Bank",
+    "brand": "QCY"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Bank",
+    "brand": "BYZ"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Bank",
+    "brand": "Jiayou"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Car Charger",
+    "brand": null
+  },
+  {
+    "main": "Gadget",
+    "sub": "Mini Fan",
+    "brand": null
+  },
+  {
+    "main": "Gadget",
+    "sub": "Health Monitor",
+    "brand": null
+  },
+  {
+    "main": "Gadget",
+    "sub": "TV Box",
+    "brand": null
+  },
+  {
+    "main": "Gadget",
+    "sub": "Studio Equipment",
+    "brand": "Studio Microphones"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Studio Equipment",
+    "brand": "Studio Monitors"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Studio Equipment",
+    "brand": "Studio Headphones"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Studio Equipment",
+    "brand": "Audio Interfaces"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Studio Equipment",
+    "brand": "Switcher"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Drones",
+    "brand": "DJI"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Drones",
+    "brand": "Mini Toy Drone"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Drones",
+    "brand": "4K Drone"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Drones",
+    "brand": "Professional Drone"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Drones",
+    "brand": "Enterprise Drone"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Drones",
+    "brand": "Drone Accessories"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Gimbal",
+    "brand": "DJI"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Gimbal",
+    "brand": "Zhiyun"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Gimbal",
+    "brand": "Insta360"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Gimbal",
+    "brand": "Hohem"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Gimbal",
+    "brand": "Feiyu"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Calculator",
+    "brand": "Casio"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Tools",
+    "brand": "Blower Machine"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Tools",
+    "brand": "Drill Machine"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Tools",
+    "brand": "Torch Light"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Tools",
+    "brand": "Angle Grinder"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Tools",
+    "brand": "Screwdriver"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Tools",
+    "brand": "Saw Machine"
+  },
+  {
+    "main": "Gadget",
+    "sub": "Power Tools",
+    "brand": "Sander Machine"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gaming Chair",
+    "brand": "Xtrike Me"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gaming Chair",
+    "brand": "Phantom Edge"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gaming Chair",
+    "brand": "Corsair"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gaming Chair",
+    "brand": "Gigabyte"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gaming Chair",
+    "brand": "Fantech"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gaming Chair",
+    "brand": "Thermaltake"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gaming Chair",
+    "brand": "Cougar"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gaming Desk",
+    "brand": null
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gaming Console",
+    "brand": "PlayStation"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gaming Console",
+    "brand": "Xbox"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gaming Console",
+    "brand": "Nintendo"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gaming Console",
+    "brand": "Asus"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gaming Console",
+    "brand": "Lenovo"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gaming Console",
+    "brand": "Steam Deck"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gaming PC",
+    "brand": null
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gaming Laptop",
+    "brand": null
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gaming Monitor",
+    "brand": null
+  },
+  {
+    "main": "Gaming",
+    "sub": "Keyboard",
+    "brand": null
+  },
+  {
+    "main": "Gaming",
+    "sub": "Mouse",
+    "brand": null
+  },
+  {
+    "main": "Gaming",
+    "sub": "Headphone",
+    "brand": null
+  },
+  {
+    "main": "Gaming",
+    "sub": "Mouse Pad",
+    "brand": null
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gamepad",
+    "brand": "Xbox"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gamepad",
+    "brand": "PlayStation"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gamepad",
+    "brand": "Nintendo"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gamepad",
+    "brand": "Xtrike Me"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gamepad",
+    "brand": "Logitech"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gamepad",
+    "brand": "Fantech"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gamepad",
+    "brand": "Havit"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gamepad",
+    "brand": "Rapoo"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gamepad",
+    "brand": "Redragon"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gamepad",
+    "brand": "Thunderobot"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gamepad",
+    "brand": "SteelSeries"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gamepad",
+    "brand": "Corsair"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gamepad",
+    "brand": "PXN"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gamepad",
+    "brand": "8BitDo"
+  },
+  {
+    "main": "Gaming",
+    "sub": "Racing Wheel",
+    "brand": null
+  },
+  {
+    "main": "Gaming",
+    "sub": "VR",
+    "brand": null
+  },
+  {
+    "main": "Gaming",
+    "sub": "Games",
+    "brand": null
+  },
+  {
+    "main": "Gaming",
+    "sub": "Gaming Router",
+    "brand": null
+  },
+  {
+    "main": "TV",
+    "sub": "All TV",
+    "brand": "Haier"
+  },
+  {
+    "main": "TV",
+    "sub": "All TV",
+    "brand": "Samsung"
+  },
+  {
+    "main": "TV",
+    "sub": "All TV",
+    "brand": "Sony"
+  },
+  {
+    "main": "TV",
+    "sub": "All TV",
+    "brand": "XIAOMI"
+  },
+  {
+    "main": "TV",
+    "sub": "All TV",
+    "brand": "Hisense"
+  },
+  {
+    "main": "TV",
+    "sub": "All TV",
+    "brand": "TCL"
+  },
+  {
+    "main": "TV",
+    "sub": "All TV",
+    "brand": "SMART"
+  },
+  {
+    "main": "TV",
+    "sub": "All TV",
+    "brand": "LG"
+  },
+  {
+    "main": "TV",
+    "sub": "All TV",
+    "brand": "SINGER"
+  },
+  {
+    "main": "TV",
+    "sub": "All TV",
+    "brand": "beko"
+  },
+  {
+    "main": "TV",
+    "sub": "All TV",
+    "brand": "Transtec"
+  },
+  {
+    "main": "TV",
+    "sub": "All TV",
+    "brand": "ROWA"
+  },
+  {
+    "main": "TV",
+    "sub": "All TV",
+    "brand": "Realview"
+  },
+  {
+    "main": "TV",
+    "sub": "LED TV",
+    "brand": null
+  },
+  {
+    "main": "TV",
+    "sub": "Smart TV",
+    "brand": null
+  },
+  {
+    "main": "TV",
+    "sub": "Android TV",
+    "brand": null
+  },
+  {
+    "main": "TV",
+    "sub": "4K TV",
+    "brand": null
+  },
+  {
+    "main": "TV",
+    "sub": "TV Box",
+    "brand": null
+  },
+  {
+    "main": "TV",
+    "sub": "TV Stand & Wall Mount",
+    "brand": null
+  },
+  {
+    "main": "Appliance",
+    "sub": "AC",
+    "brand": "Haier"
+  },
+  {
+    "main": "Appliance",
+    "sub": "AC",
+    "brand": "Gree"
+  },
+  {
+    "main": "Appliance",
+    "sub": "AC",
+    "brand": "Midea"
+  },
+  {
+    "main": "Appliance",
+    "sub": "AC",
+    "brand": "beko"
+  },
+  {
+    "main": "Appliance",
+    "sub": "AC",
+    "brand": "SINGER"
+  },
+  {
+    "main": "Appliance",
+    "sub": "AC",
+    "brand": "SMART"
+  },
+  {
+    "main": "Appliance",
+    "sub": "AC",
+    "brand": "Xiaomi"
+  },
+  {
+    "main": "Appliance",
+    "sub": "AC",
+    "brand": "General"
+  },
+  {
+    "main": "Appliance",
+    "sub": "AC",
+    "brand": "Hisense"
+  },
+  {
+    "main": "Appliance",
+    "sub": "AC",
+    "brand": "Sharp"
+  },
+  {
+    "main": "Appliance",
+    "sub": "AC",
+    "brand": "EcoFlow"
+  },
+  {
+    "main": "Appliance",
+    "sub": "AC",
+    "brand": "Elite"
+  },
+  {
+    "main": "Appliance",
+    "sub": "AC",
+    "brand": "Hyundai"
+  },
+  {
+    "main": "Appliance",
+    "sub": "AC",
+    "brand": "Haiko"
+  },
+  {
+    "main": "Appliance",
+    "sub": "AC",
+    "brand": "Daikin"
+  },
+  {
+    "main": "Appliance",
+    "sub": "AC",
+    "brand": "Hitachi"
+  },
+  {
+    "main": "Appliance",
+    "sub": "AC",
+    "brand": "LG"
+  },
+  {
+    "main": "Appliance",
+    "sub": "AC",
+    "brand": "TCL"
+  },
+  {
+    "main": "Appliance",
+    "sub": "AC",
+    "brand": "AC Ton Calculator (tool)"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Air Fryer",
+    "brand": "Pigeon"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Air Fryer",
+    "brand": "Philips"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Air Fryer",
+    "brand": "Sharp"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Air Fryer",
+    "brand": "Singer"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Air Fryer",
+    "brand": "Oraimo"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Air Fryer",
+    "brand": "Xiaomi"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Air Fryer",
+    "brand": "DeLonghi"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Washing Machine",
+    "brand": "Haier"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Washing Machine",
+    "brand": "Hisense"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Washing Machine",
+    "brand": "Sharp"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Washing Machine",
+    "brand": "Singer"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Washing Machine",
+    "brand": "beko"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Washing Machine",
+    "brand": "Whirlpool"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Washing Machine",
+    "brand": "Walton"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Washing Machine",
+    "brand": "LG"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Washing Machine",
+    "brand": "Samsung"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Washing Machine",
+    "brand": "Hitachi"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Washing Machine",
+    "brand": "TCL"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Washing Machine",
+    "brand": "Xiaomi"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Fridge",
+    "brand": "Sharp"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Fridge",
+    "brand": "Hisense"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Fridge",
+    "brand": "Haier"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Fridge",
+    "brand": "beko"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Fridge",
+    "brand": "BOSCH"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Fridge",
+    "brand": "LG"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Fridge",
+    "brand": "Kelvinator"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Fridge",
+    "brand": "Whirlpool"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Fridge",
+    "brand": "Smart"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Fridge",
+    "brand": "Rangs"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Fridge",
+    "brand": "Hitachi"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Fridge",
+    "brand": "Samsung"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Fridge",
+    "brand": "Singer"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Fridge",
+    "brand": "Midea"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Fridge",
+    "brand": "Deep Freezer"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Geyser / Water Heater",
+    "brand": "Midea"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Geyser / Water Heater",
+    "brand": "Shameem"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Geyser / Water Heater",
+    "brand": "Haier"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Geyser / Water Heater",
+    "brand": "Rangs"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Geyser / Water Heater",
+    "brand": "Ariston"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Geyser / Water Heater",
+    "brand": "TESY"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Geyser / Water Heater",
+    "brand": "IEGA"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Geyser / Water Heater",
+    "brand": "Singer"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Geyser / Water Heater",
+    "brand": "Havells"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Light",
+    "brand": null
+  },
+  {
+    "main": "Appliance",
+    "sub": "Room Heater",
+    "brand": null
+  },
+  {
+    "main": "Appliance",
+    "sub": "Air Purifier",
+    "brand": null
+  },
+  {
+    "main": "Appliance",
+    "sub": "Coffee Maker",
+    "brand": null
+  },
+  {
+    "main": "Appliance",
+    "sub": "Fan",
+    "brand": "Charger Fan"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Fan",
+    "brand": "Ceiling Fan"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Fan",
+    "brand": "Stand Fan"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Dishwasher",
+    "brand": null
+  },
+  {
+    "main": "Appliance",
+    "sub": "Vacuum Cleaner",
+    "brand": null
+  },
+  {
+    "main": "Appliance",
+    "sub": "Dehumidifier",
+    "brand": null
+  },
+  {
+    "main": "Appliance",
+    "sub": "Electric Cooker",
+    "brand": null
+  },
+  {
+    "main": "Appliance",
+    "sub": "Induction Cooker",
+    "brand": null
+  },
+  {
+    "main": "Appliance",
+    "sub": "Oven",
+    "brand": "Whirlpool"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Oven",
+    "brand": "Samsung"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Oven",
+    "brand": "Singer"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Oven",
+    "brand": "beko"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Oven",
+    "brand": "BOSCH"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Oven",
+    "brand": "Oraimo"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Oven",
+    "brand": "Haier"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Blender & Grinder",
+    "brand": "Panasonic"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Blender & Grinder",
+    "brand": "Philips"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Blender & Grinder",
+    "brand": "Singer"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Blender & Grinder",
+    "brand": "Havells"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Blender & Grinder",
+    "brand": "BOSCH"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Blender & Grinder",
+    "brand": "Oraimo"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Blender & Grinder",
+    "brand": "Tefal"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Cooker",
+    "brand": "Rice Cooker"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Cooker",
+    "brand": "Pressure Cooker"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Kitchen Hood",
+    "brand": null
+  },
+  {
+    "main": "Appliance",
+    "sub": "Juicer",
+    "brand": null
+  },
+  {
+    "main": "Appliance",
+    "sub": "Toaster",
+    "brand": null
+  },
+  {
+    "main": "Appliance",
+    "sub": "Sewing Machine",
+    "brand": "JACK"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Sewing Machine",
+    "brand": "SINGER"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Sewing Machine",
+    "brand": "ZOJE"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Iron",
+    "brand": null
+  },
+  {
+    "main": "Appliance",
+    "sub": "Electric Kettle",
+    "brand": null
+  },
+  {
+    "main": "Appliance",
+    "sub": "Air Cooler",
+    "brand": "Gree"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Air Cooler",
+    "brand": "Vision"
+  },
+  {
+    "main": "Appliance",
+    "sub": "Air Curtain",
+    "brand": null
+  },
+  {
+    "main": "Appliance",
+    "sub": "Gas Stove",
+    "brand": null
+  }
+]
