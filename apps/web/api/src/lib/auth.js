@@ -1,32 +1,19 @@
-/**
- * Better Auth itself runs on the Next.js side (apps/web) because that's
- * where the auth route handler + cookies are simplest to manage.
- *
- * The Express API is a separate server, so to know "who is calling me"
- * it forwards the incoming request's cookies to the web app's
- * `/api/auth/get-session` endpoint and trusts the result. This keeps a
- * single source of truth for sessions (no duplicated JWT logic) and
- * still lets the API enforce role-based access (customer/staff/admin).
- *
- * Full role-guarded route usage starts from Part 3 (product CRUD) —
- * this file just exposes the reusable middleware.
- */
-
-import { getWebOrigin } from "./runtime-urls.js";
+import * as webAuthModule from "@/lib/auth";
 
 export async function getSessionFromRequest(req) {
   const cookie = req.headers.cookie;
   if (!cookie) return null;
 
   try {
-    const resp = await fetch(`${getWebOrigin()}/api/auth/get-session`, {
-      headers: { cookie },
-    });
-    if (!resp.ok) return null;
-    const data = await resp.json();
+    const auth = webAuthModule.auth || webAuthModule.default;
+    if (!auth?.api?.getSession) return null;
+
+    const headers = new Headers();
+    headers.set("cookie", cookie);
+    const data = await auth.api.getSession({ headers });
     return data?.session ? data : null;
   } catch (err) {
-    console.error("[auth] failed to verify session with web app:", err.message);
+    console.error("[auth] failed to verify session:", err.message);
     return null;
   }
 }
@@ -56,15 +43,6 @@ export function requireRole(...roles) {
   };
 }
 
-/**
- * Resolves "who is making this request" for cart/wishlist-style routes
- * that work for both guests and logged-in users:
- *   - If a valid session cookie is present → req.identity = { userId }
- *   - Otherwise → req.identity = { guestId } from the X-Guest-Id header
- *     (the web app generates/stores this in localStorage per browser)
- * Never rejects the request — callers decide what an anonymous guest
- * with no guestId header is allowed to do (usually: empty cart).
- */
 export function attachIdentity() {
   return async (req, res, next) => {
     const session = await getSessionFromRequest(req);
