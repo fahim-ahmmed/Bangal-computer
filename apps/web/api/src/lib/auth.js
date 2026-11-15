@@ -1,5 +1,3 @@
-import * as webAuthModule from "@/lib/auth";
-
 export async function getSessionFromRequest(req) {
   const cookie = req.headers?.cookie;
   if (!cookie) return null;
@@ -50,7 +48,7 @@ export function attachIdentity() {
     if (session?.user?.id) {
       req.identity = { userId: session.user.id, role: session.user.role };
     } else {
-      const guestId = req.headers["x-guest-id"];
+      const guestId = req.headers?.["x-guest-id"];
       req.identity = guestId ? { guestId } : {};
     }
     next();
@@ -64,7 +62,7 @@ export function requireAuthOrGuest() {
       req.identity = { userId: session.user.id };
       return next();
     }
-    const guestId = req.headers["x-guest-id"];
+    const guestId = req.headers?.["x-guest-id"];
     if (!guestId) {
       return res.status(400).json({ success: false, message: "X-Guest-Id হেডার আবশ্যক" });
     }
