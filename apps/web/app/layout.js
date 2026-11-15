@@ -1,4 +1,4 @@
-import "@/api/app.js";
+ 
 import "./globals.css";
 import { Providers } from "./providers";
 import { getSiteOrigin } from "@/lib/deployment-config";

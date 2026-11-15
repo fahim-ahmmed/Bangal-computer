@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "rm -f api/server.js && next build && rm -f .next/standalone/node_modules/react-dom/server.js node_modules/react-dom/server.js",
     "start": "next start",
     "lint": "next lint"
   },
