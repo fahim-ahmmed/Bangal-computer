@@ -1,10 +1,11 @@
 import * as webAuthModule from "@/lib/auth";
 
 export async function getSessionFromRequest(req) {
-  const cookie = req.headers.cookie;
+  const cookie = req.headers?.cookie;
   if (!cookie) return null;
 
   try {
+    const webAuthModule = await import("@/lib/auth");
     const auth = webAuthModule.auth || webAuthModule.default;
     if (!auth?.api?.getSession) return null;
 
@@ -13,7 +14,7 @@ export async function getSessionFromRequest(req) {
     const data = await auth.api.getSession({ headers });
     return data?.session ? data : null;
   } catch (err) {
-    console.error("[auth] failed to verify session:", err.message);
+    console.error("[auth] session check error:", err.message);
     return null;
   }
 }
